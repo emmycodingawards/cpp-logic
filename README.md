@@ -9,10 +9,10 @@ Members: Emmy Issa, Preet Jyotpreet, Chris Vienna, Chris Mendonca
 - Extra Credit: Written in Java
 
 # Assignments:
-- Emmy:
-- Preet: 
+- Emmy: Questions
+- Preet: Questions
 - Chris V.: Bitfield
-- Chris M.:
+- Chris M.: Linked List
 
 # Topics to Test:
 - >> vs << for cin/cout
