@@ -1,5 +1,18 @@
-# Vim-Game
+# Vim-Tutorial
 
-Members:
+Members: Emmy Issa, Preet Jyotpreet, Chris Vienna, Chris Mendonca
 
-Tasks:
+# Requirements:
+- Github
+- Networked
+- Two data structures - linked list, bitfield
+- Extra Credit: Java
+
+# Assignments:
+- Emmy:
+- Preet:
+- Chris V.: Bitfield
+- Chris M.:
+
+# Topics to Test:
+- 
