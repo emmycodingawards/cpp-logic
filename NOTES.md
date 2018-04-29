@@ -11,6 +11,7 @@
 
 # questions.h
 - Programmers: Emmy and Preet
+- See Questions Project board to keep track of questions that have been completed
 
 # linkedlist.h
 - Programmer: Chris M.
@@ -35,6 +36,7 @@
 - User is taken to next question if correct or taken back if there have been too many incorrect answers inputted
 
 # Topics to Test:
+0. C++ Logic Intro
 1. Cout backward arrows
 2. Cin backward arrows
 3. Missing semicolon
