@@ -15,7 +15,9 @@ Members: Emmy Issa, Preet Jyotpreet, Chris Vienna, Chris Mendonca
 - Chris M.: Linked List
 
 # Topics to Test:
-- >> vs << for cin/cout
+- Cout backward arrows.
+- Cin backward arrows.
+- Missing semicolon after class 
 - Missing semicolon
 - = vs == for if statements
 - Defining class/ remembering }; after class
