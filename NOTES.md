@@ -2,7 +2,7 @@
 - README [contains general information]
 - NOTES [contains outline for program]
 - main.cc [contains body of program, mostly function calls]
-- questions.h - [contains each question in a function]
+- questions.h [contains each question in a function]
 - linkedlist.h [contains linked list ADT]
 - bitfield.h [contains bitfield ADT]
 
@@ -10,37 +10,46 @@
 - JUST CALLING FUNCTIONS 
 
 # questions.h
-- Emmy and Preet
+- Programmers: Emmy and Preet
 
 # linkedlist.h
-- Chris M.
+- Programmer: Chris M.
 
 # bitfield.h
-- Chris V.
+- Programmer: Chris V.
 
-
-# Topics to Test:
-- Cout backward arrows.
-- Cin backward arrows.
-- Missing semicolon after class 
-- Missing semicolon.
-- Single equal in if statemet. 
-- Infinite loop.
-- Lack of magic.
-- A variable is used out of scope. 
 
 # Possible Features:
 - Timed questions
 - Incorporate music (if using java)
 
 # Format:
-- Intro to C++ Logic.
-- Question prints to screen.
-- Example prints to screen that user needs to debug
-- (Some multiple choice, some short answer)
-- User inputs their answer 
+- Intro to C++ Logic
+- Question prints to screen
+- 1) Example prints to screen that user needs to debug (using strok() to check)
+- -OR-
+- 2) Multiple choice answer prints to screen (if statements)
+- User inputs answer 
+- Correct answer prints out on screen
+- Linked List/Bitfield are updated based on correctness
+- User is taken to next question if correct or taken back if there have been too many incorrect answers inputted
 
-# Question Format:
-- Using strtok() for short answer questions
-- Multiple choice: if statements
-
+# Topics to Test:
+1. Cout backward arrows
+2. Cin backward arrows
+3. Missing semicolon
+4. Missing semicolon after class
+5. Extra semicolon after a for loop
+6. Single equal in if statement
+7. Dereferencing a null pointer
+8. Single equals in if statement
+9. Single | and & in if statements
+10. Caret operator
+11. Undeclared functions
+12. Variable scoping issue
+13. Incorrect pointer/function operator
+14. Improper sytanx for a for loop
+15. Improper array initialization
+16. Loss of data
+17. Using one too many or too few parentheses
+18. Forgetting using namespace std &| lack of including <iostream>
