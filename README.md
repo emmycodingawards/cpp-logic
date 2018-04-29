@@ -4,13 +4,13 @@ Members: Emmy Issa, Preet Jyotpreet, Chris Vienna, Chris Mendonca
 
 # Requirements:
 - Github
-- Networked
+- Networked 
 - Two data structures - linked list, bitfield, additional STL vectors
 - Extra Credit: Written in Java
 
 # Assignments:
-- Emmy: Questions
-- Preet: Questions
+- Emmy: classes 
+- Preet: classes 
 - Chris V.: Bitfield
 - Chris M.: Linked List
 
@@ -18,16 +18,19 @@ Members: Emmy Issa, Preet Jyotpreet, Chris Vienna, Chris Mendonca
 - Cout backward arrows.
 - Cin backward arrows.
 - Missing semicolon after class 
-- Missing semicolon
-- = vs == for if statements
-- Defining class/ remembering }; after class
+- Missing semicolon.
+- Single equal in if statemet. 
+- Infinite loop.
+- Lack of magic.
+- A variable is used out of scope. 
 
 # Possible Features:
 - Timed questions
+- Incorporate music (if using java)
 
 # Format:
-- Intro to C++ Logic
-- Question prints to screen
+- Intro to C++ Logic.
+- Question prints to screen.
 - Example prints to screen that user needs to debug
 - (Some multiple choice, some short answer)
 - User inputs their answer 
