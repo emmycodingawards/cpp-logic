@@ -1,3 +1,24 @@
+# Files:
+- README [contains general information]
+- NOTES [contains outline for program]
+- main.cc [contains body of program, mostly function calls]
+- questions.h - [contains each question in a function]
+- linkedlist.h [contains linked list ADT]
+- bitfield.h [contains bitfield ADT]
+
+#  main.cc
+- JUST CALLING FUNCTIONS 
+
+# questions.h
+- Emmy and Preet
+
+# linkedlist.h
+- Chris M.
+
+# bitfield.h
+- Chris V.
+
+
 # Topics to Test:
 - Cout backward arrows.
 - Cin backward arrows.
@@ -20,24 +41,6 @@
 - User inputs their answer 
 
 # Question Format:
-- Using strtok for short answer questions
+- Using strtok() for short answer questions
 - Multiple choice: if statements
 
-# Files:
-- README
-- main.cc
-- Linked List header file
-- Bitfield header file
-- Question class header file
-
-#  main.cc
-- JUST CALLING FUNCTIONS 
-
-# Linked List
-- Chris M.
-
-# Bitfield
-- Chris V.
-
-# Question Class
-- Emmy and Preet
