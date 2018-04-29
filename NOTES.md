@@ -5,6 +5,7 @@
 - questions.h [contains each question in a function]
 - linkedlist.h [contains linked list ADT]
 - bitfield.h [contains bitfield ADT]
+- Makefile [for combining all pieces together]
 
 #  main.cc
 - Just calling functions
@@ -18,6 +19,8 @@
 
 # bitfield.h
 - Programmer: Chris V.
+
+# Makefile
 
 
 # Possible Features:
