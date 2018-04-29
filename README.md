@@ -5,7 +5,8 @@ Members: Emmy Issa, Preet Jyotpreet, Chris Vienna, Chris Mendonca
 # Requirements:
 - Github ✓
 - Networked 
-- Two data structures - linked list, bitfield, with additional STL vectors
+- Data Structure 1: Linked List
+- Data Structure 2: Bitfield
 - Extra Credit: Written in Java
 
 # Assignments:
