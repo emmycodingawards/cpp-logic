@@ -1,4 +1,4 @@
-# Files:
+# Directory:
 - README [contains general information]
 - NOTES [contains outline for program]
 - main.cc [contains body of program, mostly function calls]
@@ -7,7 +7,7 @@
 - bitfield.h [contains bitfield ADT]
 
 #  main.cc
-- JUST CALLING FUNCTIONS 
+- Just calling functions
 
 # questions.h
 - Programmers: Emmy and Preet
