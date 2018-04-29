@@ -1,4 +1,4 @@
-# Cpp Logic
+# C++ Logic
 
 Members: Emmy Issa, Preet Jyotpreet, Chris Vienna, Chris Mendonca
 
