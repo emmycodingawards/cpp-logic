@@ -34,9 +34,8 @@ public class One{
              else {
                 System.out.println("Oops! YOU ARE SCREWED.");   }
                   
-                  System.out.print("\f");
-       
-                  
+                  System.out.print("\f");   
+                 
               System.out.println("3. Why would the code below not compile?");
               System.out.println("int x;");
               System.out.println("cin >> x;");
@@ -61,6 +60,15 @@ public class One{
                 System.out.println("Hmm ... that can be an issue, but NOT this time."); }
             else {
                   System.out.println("Oops! YOU ARE SCREWED.");   }
+                  
+                  System.out.print("\f");
+ 
+                  System.out.println("4. Which part of 'The Magic' is missing? ");
+                  System.out.println("#include <iostream>");
+                  System.out.pritln("int main() {");
+                  System.out.print("     }    ");
+                  System.out.print(" ");
+                  
                   
     }
 }
