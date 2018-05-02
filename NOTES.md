@@ -40,7 +40,7 @@
 
 # Topics to Test:
 0. C++ Logic Intro
-1. Cout backward arrows
+1. Cout backward arrows [DONE]
 2. Cin backward arrows
 3. Missing semicolon
 4. Missing semicolon after class
