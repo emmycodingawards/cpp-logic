@@ -17,7 +17,7 @@ public class One{
             else {
                 System.out.println("Oops! YOU ARE SCREWED.");   }
 
-            System.out.print("\f");
+            // System.out.print("\f");
 
         System.out.println("2.What is right syntax for cout? ");
           String name2 = in.nextLine();
@@ -34,7 +34,7 @@ public class One{
              else {
                 System.out.println("Oops! YOU ARE SCREWED.");   }
                   
-                  System.out.print("\f");   
+                //  System.out.print("\f");   
                  
               System.out.println("3. Why would the code below not compile?");
               System.out.println("int x;");
@@ -61,7 +61,7 @@ public class One{
             else {
                   System.out.println("Oops! YOU ARE SCREWED.");   }
                   
-                  System.out.print("\f");
+                //  System.out.print("\f");
  
                   System.out.println("4. Which part of 'The Magic' is missing? ");
                   System.out.println("#include <iostream>");
