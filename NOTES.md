@@ -58,4 +58,4 @@
 16. Loss of data
 17. Using one too many or too few parentheses
 18. Forgetting using namespace std &| lack of including <iostream>
-19. Magic 
+19. Magic [DONE]
