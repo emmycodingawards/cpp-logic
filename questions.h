@@ -65,17 +65,33 @@ public class One{
  
                   System.out.println("4. Which part of 'The Magic' is missing? ");
                   System.out.println("#include <iostream>");
-                  System.out.pritln("int main() {");
+                  System.out.println("int main() {");
                   System.out.print("     }    ");
-                  System.out.print(" ");
+                  System.out.println(" ");
                    System.out.println("Choose an Appropriate answer:");
-        System.out.println("A. cout << "Hello World!" << endl;");
+        System.out.println("A. cout << 'Hello World!' << endl;");
         System.out.println("B. int main() {}");
         System.out.println("C. using namespace std;");
         System.out.println("D. #include <cmath>");
-
-                  
-                  
-    }
+                  String name4 = in.nextLine();
+        if (name4.equals( "C") ) {
+            System.out.println("Your answer is correct."); }
+        else if (name4.equals( "c") ) {
+            System.out.println("Your answer is correct."); }
+        else if (name4.equals( "A") ) {
+            System.out.println(" Well! cout statements are NOT part of magic."); }
+        else if (name4.equals( "a") ) {
+            System.out.println("Well! cout statements are NOT part of magic."); }
+        else if (name4.equals( "B") ) {
+            System.out.println("This is not missing .... try{ EYE exam}, catch{ WEAR GLASSES} ."); }
+        else if (name4.equals( "b") ) {
+            System.out.println("This is not missing .... try{ EYE exam}, catch{ WEAR GLASSES} ."); }
+        else if(name4.equals("D") ) {
+            System.out.println(" NOPE."); }
+        else if(name4.equals("d") ) {
+            System.out.println(" NOPE."); }
+        else {
+            System.out.println("Oops! YOU ARE SCREWED.");  }
+     }
 }
 
