@@ -68,6 +68,12 @@ public class One{
                   System.out.pritln("int main() {");
                   System.out.print("     }    ");
                   System.out.print(" ");
+                   System.out.println("Choose an Appropriate answer:");
+        System.out.println("A. cout << "Hello World!" << endl;");
+        System.out.println("B. int main() {}");
+        System.out.println("C. using namespace std;");
+        System.out.println("D. #include <cmath>");
+
                   
                   
     }
