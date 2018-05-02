@@ -4,7 +4,7 @@ Members: Emmy Issa, Preet Jyotpreet, Chris Vienna, Chris Mendonca
 
 # Requirements:
 - Github ✓
-- Networked 
+- Networking
 - Data Structure 1: Linked List
 - Data Structure 2: Bitfield
 - Extra Credit: Written in Java
@@ -12,7 +12,7 @@ Members: Emmy Issa, Preet Jyotpreet, Chris Vienna, Chris Mendonca
 # Assignments:
 - Emmy: Question classes 
 - Preet: Question classes 
-- Chris V.: Bitfield
+- Chris V.: Bitfield & Networking
 - Chris M.: Linked List
 
 # About C++ Logic
