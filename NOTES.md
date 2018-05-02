@@ -42,7 +42,7 @@
 0. C++ Logic Intro
 1. Cout backward arrows [DONE]
 2. Cin backward arrows  [DONE]
-3. Missing semicolon
+3. Missing semicolon    [DONE]
 4. Missing semicolon after class
 5. Extra semicolon after a for loop
 6. Single equal in if statement
