@@ -7,17 +7,17 @@
 - bitfield.h [contains bitfield ADT]
 - Makefile [for combining all pieces together]
 
-#  main.cc
+#  main.java
 - Just calling functions
 
-# questions.h
+# questions.java
 - Programmers: Emmy and Preet
 - See Questions Project board to keep track of questions that have been completed
 
-# linkedlist.h
+# linkedlist.java
 - Programmer: Chris M.
 
-# bitfield.h
+# bitfield.java
 - Programmer: Chris V.
 
 # Makefile
