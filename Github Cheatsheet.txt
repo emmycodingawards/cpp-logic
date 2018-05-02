@@ -1,0 +1,27 @@
+
+
+git clone <url of our repository>		// adds a directory in the current folder for this project
+
+git add fileNeedingUpdate1.java NewStuff1.java	// adds changes from specified files, delimited by a space
+
+git add -a 					// adds all changes to list of things to be pushed
+
+git commit					// commits current changes made using "git add"
+
+git push -m "<message here>"			// pushes all commits to current branch in remote repo
+
+git pull 					// fetches and merges the remote repository with your local one
+
+git fetch					// downloads current remote repository into temp memory
+
+git merge					// automatically merges all changes in temp with your local
+
+git checkout <branch>				// changes current working branch to one specified
+
+git branch					// displays current branch and and a list of all branches
+
+git branch <name>				// creates new branch with specified name e.g. ll-branch
+
+Notes:
+-You need to have a -m followed by a message in quotes in order to push.
+-We probably won't be using fetch
