@@ -16,6 +16,9 @@ public class One{
 
             else {
                 System.out.println("Oops! YOU ARE SCREWED.");   }
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println(" ");
 
             // System.out.print("\f");
 
@@ -33,6 +36,9 @@ public class One{
             System.out.println("Hey, it looks like you're trying to do a cout statement. In order to do a cout statement, you want to type something like this: cout << x; Note that it looks like there are arrows pointing FROM the variable TO cout. I think you might have done yours backwards (cout >> x; is wrong).."); }
              else {
                 System.out.println("Oops! YOU ARE SCREWED.");   }
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println(" ");
                   
                 //  System.out.print("\f");   
                  
@@ -60,6 +66,9 @@ public class One{
                 System.out.println("Hmm ... that can be an issue, but NOT this time."); }
             else {
                   System.out.println("Oops! YOU ARE SCREWED.");   }
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println(" ");
                   
                 //  System.out.print("\f");
  
