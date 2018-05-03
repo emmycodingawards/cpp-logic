@@ -60,7 +60,7 @@ public class Questions{
                 System.out.println("I know it is disappointing, but ARROWS are perfectly fine."); }
             else if (name3.equals( "a") ) {
                 System.out.println("I know it is disappointing, but ARROWS are perfectly fine."); }
-            esle if (name3.equals( "B") ) {
+            else if (name3.equals( "B") ) {
                 System.out.println("Hmm ... that can be an issue, but NOT this time."); }
             else if (name3.equals( "b") ) {
                 System.out.println("Hmm ... that can be an issue, but NOT this time."); }
