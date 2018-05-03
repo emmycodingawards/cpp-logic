@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Questions{
+public class Question{
          public static void main(String[] args) {
              Scanner in = new Scanner(System.in);
             // String answer_one;
