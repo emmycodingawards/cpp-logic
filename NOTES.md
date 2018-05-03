@@ -45,17 +45,16 @@
 3. Missing semicolon    [DONE]
 4. Missing semicolon after class
 5. Extra semicolon after a for loop
-6. Single equal in if statement
+6. Single equal in if statement [DONE]
 7. Dereferencing a null pointer
-8. Single equals in if statement
-9. Single | and & in if statements
-10. Caret operator
-11. Undeclared functions
-12. Variable scoping issue
-13. Incorrect pointer/function operator
-14. Improper sytanx for a for loop
-15. Improper array initialization
-16. Loss of data
-17. Using one too many or too few parentheses
-18. Forgetting using namespace std &| lack of including <iostream>
-19. Magic [DONE]
+8. Single | and & in if statements
+9. Caret operator
+10. Undeclared functions
+11. Variable scoping issue
+12. Incorrect pointer/function operator
+13. Improper sytanx for a for loop
+14. Improper array initialization
+15. Loss of data
+16. Using one too many or too few parentheses
+17. Forgetting using namespace std &| lack of including <iostream>
+18. Magic [DONE]
