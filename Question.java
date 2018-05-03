@@ -101,6 +101,42 @@ public class Question{
             System.out.println(" NOPE."); }
         else {
             System.out.println("Oops! YOU ARE SCREWED.");  }
+                  System.out.println(" ");
+                  System.out.println(" ");
+
+
+        System.out.println("5. How should you write code that will output 42 if the user types in 20 as the input?");
+        System.out.println("s is an int that has the user's input already read in. And double quotes are represented as: ' ' ") ;
+
+        System.out.println("Choose an Appropriate answer:");
+        System.out.println("A. if (s = 20)  cout << 42; ");
+        System.out.println("B. if ( s == 20) cout << 42; ");
+        System.out.println("C. if (s != '20') cout << 42; ");
+        System.out.println("D. if ( s == '20') cout << 42; ");
+        String name5 = in.nextLine();
+        if (name5.equals( "D") ) {
+            System.out.println("Your answer is correct."); }
+        else if (name5.equals( "d") ) {
+            System.out.println("Your answer is correct."); }
+        else if (name5.equals( "A") ) {
+            System.out.println(" = BAD.");
+            System.out.println(" == GOOD");
+            System.out.println(" = equals assignment and == comparision. "); }
+        else if (name5.equals( "a") ) {
+            System.out.println(" = BAD.");
+            System.out.println(" == GOOD");
+            System.out.println(" = equals assignment and == comparision. "); }
+        else if (name5.equals( "B") ) {
+            System.out.println("Oops! way close, but it's missing semicolon. COMPILER ERROR ."); }
+        else if (name5.equals( "b") ) {
+            System.out.println("Oops! way close, but it's missing semicolon. COMPILER ERROR ."); }
+        else if(name5.equals("C") ) {
+            System.out.println(" != NOT EQUALS #we wand EQUALS. "); }
+        else if(name5.equals("c") ) {
+            System.out.println(" != NOT EQUALS #we wand EQUALS. "); }
+        else {
+            System.out.println("Oops! YOU ARE SCREWED.");  }
+
      }
 }
 
