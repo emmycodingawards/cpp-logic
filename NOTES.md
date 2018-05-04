@@ -56,5 +56,4 @@
 14. Improper array initialization
 15. Loss of data
 16. Using one too many or too few parentheses
-17. Forgetting using namespace std &| lack of including <iostream>
-18. Magic [DONE]
+17. Magic [DONE]
