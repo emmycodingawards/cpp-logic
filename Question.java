@@ -136,6 +136,45 @@ public class Question{
             System.out.println(" != NOT EQUALS #we wand EQUALS. "); }
         else {
             System.out.println("Oops! YOU ARE SCREWED.");  }
+                  System.out.println(" ");
+                  System.out.println(" ");
+
+        System.out.println("6. Which one of these is the preferred way of outputting the numbers from 1 to 10? ");
+        System.out.println("Choose an Appropriate answer:");
+        System.out.println("A. for (int i = 0; i < 10; i++ ) ");
+        System.out.println("   cout << i << endl;");
+        System.out.println("   }");
+        System.out.println("B. for (int i = 1; i <= 9; i++) { ");
+        System.out.println("   cout << i << endl;");
+        System.out.println("   }");
+        System.out.println("C. for (int i = 0; i < 11; i++) { ");
+        System.out.println("   cout << i << endl;");
+        System.out.println("   }");
+        System.out.println("D. for(int i = 6; i < 16; i++) }");
+        System.out.println("   cout << i << endl;");
+        System.out.println("   }");
+        String name6 = in.nextLine();
+        if (name6.equals( "A") ) {
+            System.out.println("Your answer is correct."); }
+        else if (name6.equals( "a") ) {
+            System.out.println("Your answer is correct."); }
+        else if (name6.equals( "D") ) {
+            System.out.println(" Wrong. Your answer is off by one."); }
+        else if (name6.equals( "d") ) {
+            System.out.println(" Wrong. Your answer is off by one."); }
+        else if (name6.equals( "B") ) {
+            System.out.println("Wrong. This only prints number from 1 to 9."); }
+        else if (name6.equals( "b") ) {
+            System.out.println("Wrong. This only prints number from 1 to 9."); }
+        else if(name6.equals("C") ) {
+            System.out.println(" Wrong. This prints an extra number (1 to 11). "); }
+        else if(name6.equals("c") ) {
+            System.out.println(" Wrong. This prints an extra number (1 to 11). "); }
+        else {
+            System.out.println("Oops! YOU ARE SCREWED.");  }
+        System.out.println(" ");
+        System.out.println(" ");
+
 
      }
 }
