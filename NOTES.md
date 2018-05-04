@@ -21,7 +21,7 @@
 - Programmer: Chris V.
 
 # Makefile
-
+- Programmer: Chris V.
 
 # Possible Features:
 - Timed questions
