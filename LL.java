@@ -71,7 +71,7 @@ class LL{
         }
 
         public ListNode delete_first(){
-                if(isEmpty()){throw new does_not_exist();}
+                if(isEmpty()){throw new does_not_exist();} //need to look up java exception handling
                 ListNode temp = head;
                 if(head == tail){tail = null;}
                 else{head.next.previous = null;}
@@ -82,7 +82,7 @@ class LL{
         }
 
         public ListNode delete_last(){
-                if(isEmpty()){throw new does_not_exist();}
+                if(isEmpty()){throw new does_not_exist();} // and again
                 ListNode temp = tail;
                 if(head == tail){head = null;}
                 else{tail.previous.next = null;}
