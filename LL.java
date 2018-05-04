@@ -59,14 +59,54 @@ class LL{
                 length_of_LL++;
         }
 
+        public insert_last(int value){ //insert at the end of the LL
+                ListNode newNode = new ListNode(value);
+                if(isEmpty()){head = newNode;}
+                else{
+                        tail.next = newNode;
+                        newNode.previous = tail;
+                }
+                tail = newNode;
+                length++;
+        }
+
+        public ListNode delete_first(){
+                if(isEmpty()){throw new does_not_exist();}
+                ListNode temp = head;
+                if(head == tail){tail = null;}
+                else{head.next.previous = null;}
+                head = head.next;
+                temp.next = null;
+                length--;
+                return temp;
+        }
+
+        public ListNode delete_last(){
+                if(isEmpty()){throw new does_not_exist();}
+                ListNode temp = tail;
+                if(head == tail){head = null;}
+                else{tail.previous.next = null;}
+                tail = tail.previous;
+                temp.previous = null;
+                length--;
+                return temp;
+        }
 
         public static void main(String[] args){
                 LL cpp_ll = new LL();
-
+                
+                //change these values to populate the list
                 cpp_ll.insert_first(1);
                 cpp_ll.insert_first(2);
                 cpp_ll.insert_first(3);
-
-                cpp_ll.display_forward();
-                cpp_ll.display_backward();
+                
+                
+                //test post, do not upvote
+                //cpp_ll.display_forward();
+                //cpp_ll.display_backward();
+                //cpp_ll.delete_first();
+                //cpp_ll.display_forward();
+                //cpp_ll.delete_last();
+                //cpp_ll.display_forward();
+                
         }
