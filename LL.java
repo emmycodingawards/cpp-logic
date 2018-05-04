@@ -30,40 +30,6 @@ class LL{
                 return length_of_LL;
         }
 
-		    public void display_forward(){
-                if(head == null){return;}
-                ListNode temp = head;
-                while(temp != null){
-                        System.out.print(temp.data + " -> ");
-                        temp = temp.next;
-                }
-                System.out.println("null");
-        }
-
-        public void display_backward(){
-                if(tail == null){return;}
-                ListNode temp == tail;
-                while(temp != null){
-                        System.out.print(temp.data + " -> ");
-                        temp = temp.previous;
-                }
-                System.out.println("null");
-        }
-
-       public LL(){
-                this.head = null;
-                this.tail = null;
-                this.length_of_LL = 0;
-        }
-
-        public boolean isEmpty(){ //returns true if list is empty
-                return length_of_LL == 0;
-        }
-
-        public int length_of_LL(){
-                return length_of_LL;
-        }
-
         public void display_forward(){
                 if(head == null){return;}
                 ListNode temp = head;
@@ -84,7 +50,7 @@ class LL{
                 System.out.println("null");
         }
                 
-        public void insert_first(int value){
+        public void insert_first(int value){ //insert to the front of the LL
                 ListNode newNode = new ListNode(value);
                 if(isEmpty()){tail = newNode;}
                 else{head.previous = newNode;}
