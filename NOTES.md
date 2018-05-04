@@ -52,7 +52,7 @@
 10. Undeclared functions
 11. Variable scoping issue
 12. Incorrect pointer/function operator
-13. Improper sytanx for a for loop
+13. Improper sytanx for a for loop [DONE]
 14. Improper array initialization
 15. Loss of data
 16. Using one too many or too few parentheses
