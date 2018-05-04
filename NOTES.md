@@ -1,10 +1,10 @@
 # Directory:
 - README [contains general information]
 - NOTES [contains outline for program]
-- main.cc [contains body of program, mostly function calls]
-- questions.h [contains each question in a function]
-- linkedlist.h [contains linked list ADT]
-- bitfield.h [contains bitfield ADT]
+- main.java [contains body of program, mostly function calls]
+- questions.java [contains each question in a function]
+- linkedlist.java [contains linked list ADT]
+- bitfield.java [contains bitfield ADT]
 - Makefile [for combining all pieces together]
 
 #  main.java
