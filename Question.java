@@ -123,7 +123,7 @@ public class Question{
 		System.out.println(" ");
 
 
-		System.out.println("QUESTION 5: User Input");
+		System.out.println("QUESTION 5: If Statements");
 		System.out.println("How would you write code that outputs 42 if the user inputs 20?");
 		System.out.println("x is an int that is storing the user's input.");
 		System.out.println("Choose the correct answer:");
@@ -161,7 +161,7 @@ public class Question{
 		System.out.println(" ");
 
 
-		System.out.println("QUESTION 6: For loops");
+		System.out.println("QUESTION 6: For Loops");
 		System.out.println("Which of these is King Kerney's preferred way of outputting the numbers from 1 to 10?");
 		System.out.println("Choose the correct answer:");
 		System.out.println("A. for (int i = 0; i < 10; i++ ) ");
