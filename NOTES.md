@@ -43,7 +43,8 @@
 5. Single equal in if statement [DONE]
 6. Correct way of writing for loops [DONE]
 
-- CONTINUE listing in order as we go:
+
+- CONTINUE LISTING IN ORDER AS QUESTIONS ARE COMPLETED:
 - Missing semicolon after class
 - Extra semicolon after a for loop
 - Dereferencing a null pointer
