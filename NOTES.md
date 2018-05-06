@@ -42,6 +42,7 @@
 4. Magic [DONE]
 5. Single equal in if statement [DONE]
 6. Correct way of writing for loops [DONE]
+7. Caret operator vs pow() function [IN PROGRESS - EMMY]
 
 
 - CONTINUE LISTING IN ORDER AS QUESTIONS ARE COMPLETED:
@@ -49,11 +50,9 @@
 - Extra semicolon after a for loop
 - Dereferencing a null pointer
 - Single | and & in if statements
-- Caret operator
 - Undeclared functions
 - Variable scoping issue
 - Incorrect pointer/function operator
-- Improper sytanx for a for loop [DONE]
 - Improper array initialization
 - Loss of data
 - Using one too many or too few parentheses
