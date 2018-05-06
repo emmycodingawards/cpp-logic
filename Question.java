@@ -200,7 +200,10 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-
+		System.out.println("QUESTION 7: Power operator");
+		System.out.println("How would you raise 3 to the 4th power in C++?");
+		String name7 = in.nextLine();
+		if (name7.equals("A")) { System.out.println(""); }
 	}
 }
 
