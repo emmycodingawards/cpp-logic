@@ -313,9 +313,7 @@ public class Question{
 	System.out.println("QUESTION 10: Null pointer");
 		 System.out.println("Why would the code below not work?");
 		System.out.println(" " );
-		System.out.println(" ");
-		System.out.println(" ");
-		
+		 		
 		System.out.println("int *x = null_ptr; cout << *x; ");
 		System.out.println(" ");
 		System.out.println("Choose an Appropriate answer:");
@@ -353,6 +351,37 @@ public class Question{
 		System.out.println(" " );
 		System.out.println(" ");
 		System.out.println(" ");
+		
+	System.out.println("QUESTION 11: Single | and & in if statements");
+		System.out.println("What will the code print to the screen?");
+		System.out.println( " ");
+		System.out.println("int x = 5; int y = 8;");
+		System.out.println("cin >> x, y;");
+		System.out.println("if (x == 5 & y == 8) { cout << \"AWESOME;\" } ");
+		System.out.println("else cout << \"WRONG\" ");
+		System.out.println( " ");
+		System.out.println( "Please Type in your answer below: ");
+		
+		String name11 = in.nextLine();
+		if (name11.equals( "AWESOME") ) {
+			System.out.println("Inorrect! You've not used the && operator properly."); }
+		else if (name11.equals( "Awesome") ) {
+			System.out.println("Incorrect! You've not used the && operator properly."); }
+		else if (name11.equals( "awesome") ){
+			System.out.println("Incorrect! You've not used the && operator properly."); }
+		else if (name11.equals( "WRONG") ){
+			System.out.println(" Correct!"); }
+		else if (name11.equals( "wrong") ){
+			System.out.println(" Correct!"); }
+		else if (name11.equals( "Wrong") ){
+			System.out.println(" Correct!"); }
+		else {
+			System.out.println("Invalid Input. The correct answer was: WRONG");   }
+		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println(" ");
+
+		
 }
 }
 
