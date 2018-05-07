@@ -43,11 +43,12 @@
 5. Single equal in if statement [DONE]
 6. Correct way of writing for loops [DONE]
 7. Caret operator vs pow() function [IN PROGRESS - EMMY]
+8. Extra semicolon after a for loop [DONE]
 
 
 - CONTINUE LISTING IN ORDER AS QUESTIONS ARE COMPLETED:
 - Missing semicolon after class
-- Extra semicolon after a for loop
+
 - Dereferencing a null pointer
 - Single | and & in if statements
 - Undeclared functions
