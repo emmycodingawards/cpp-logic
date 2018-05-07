@@ -214,16 +214,16 @@ public class Question{
         else if (name7.equals( "a") ) {
             System.out.println("Incorect. It's missing 3. Instead of x there should be 3."); }
 		System.out.println("The correct answer is C.");
-        else if (name7.equals( "D") ) {
-            System.out.println("Incorrect. Shocking right? But this is only true in Mathematic notation."); }
-		System.out.println("The correct answer is C.");
-        else if (name7.equals( "d") ) {
-            System.out.println("Incorrect. Shocking right? But this is only true in Mathematic notation."); }
-		System.out.println("The correct answer is C.");
         else if (name7.equals( "B") ) {
-            System.out.println("Incorrect. Only valid in MATH not in C++."); }
+            System.out.println("Incorrect. You've used the caret operator (^) with two integers, probably expecting it to raise one integer to the other. This operator in C++ is responsible for XOR (exclusive OR). If you want to raise an integer, use the <cmath> function pow."); }
 		System.out.println("The correct answer is C.");
         else if (name7.equals( "b") ) {
+            System.out.println("Incorrect. You've used the caret operator (^) with two integers, probably expecting it to raise one integer to the other. This operator in C++ is responsible for XOR (exclusive OR). If you want to raise an integer, use the <cmath> function pow."); }
+		System.out.println("The correct answer is C.");
+        else if (name7.equals( "D") ) {
+            System.out.println("Incorrect. Only valid in MATH not in C++."); }
+		System.out.println("The correct answer is C.");
+        else if (name7.equals( "d") ) {
             System.out.println("Incorrect. Only valid in MATH not in C++."); }
 		System.out.println("The correct answer is C.");
 			
