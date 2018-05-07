@@ -202,8 +202,38 @@ public class Question{
 		System.out.println(" ");
 		System.out.println("QUESTION 7: Power operator");
 		System.out.println("How would you raise 3 to the 4th power in C++?");
-		String name7 = in.nextLine();
-		if (name7.equals("A")) { System.out.println(""); }
+		 System.out.println("Choose an Appropriate answer:");
+        System.out.println("A. pow(x, 4)");
+        System.out.println("B. 3^4 ");
+        System.out.println("C. pow(3,4) ");
+        System.out.println("D. 3*3*3*3 ");
+        String name7 = in.nextLine();
+        if (name7.equals( "A") ) {
+            System.out.println("Incorrect. It's missing 3. Instead of x there should be 3."); }
+		System.out.println("The correct answer is C.");
+        else if (name7.equals( "a") ) {
+            System.out.println("Incorect. It's missing 3. Instead of x there should be 3."); }
+		System.out.println("The correct answer is C.");
+        else if (name7.equals( "D") ) {
+            System.out.println("Incorrect. Shocking right? But this is only true in Mathematic notation."); }
+		System.out.println("The correct answer is C.");
+        else if (name7.equals( "d") ) {
+            System.out.println("Incorrect. Shocking right? But this is only true in Mathematic notation."); }
+		System.out.println("The correct answer is C.");
+        else if (name7.equals( "B") ) {
+            System.out.println("Incorrect. Only valid in MATH not in C++."); }
+		System.out.println("The correct answer is C.");
+        else if (name7.equals( "b") ) {
+            System.out.println("Incorrect. Only valid in MATH not in C++."); }
+		System.out.println("The correct answer is C.");
+			
+        else if(name7.equals("C") ) {
+            System.out.println("Correct! "); }
+        else if(name7.equals("c") ) {
+            System.out.println("Correct! "); }
+        else {
+            System.out.println("Invalid Input.The correct answer is C.");  }
+
 	}
 }
 
