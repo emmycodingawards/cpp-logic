@@ -12,7 +12,7 @@
 
 # questions.java
 - Programmers: Emmy and Preet
-- See Questions Project board to keep track of questions that have been completed
+- See Questions checklist below to keep track of questions that have been completed.
 
 # linkedlist.java
 - Programmer: Chris M.
@@ -26,7 +26,7 @@
 # Format:
 - Intro to C++ Logic
 - Question prints to screen
-- 1) Example prints to screen that user needs to debug (using strok() to check)
+- 1) Example prints to screen that user needs to debug
 - -OR-
 - 2) Multiple choice answer prints to screen (if statements)
 - User inputs answer 
