@@ -233,7 +233,41 @@ public class Question{
             System.out.println("Correct! "); }
         else {
             System.out.println("Invalid Input.The correct answer is C.");  }
-
+		
+		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println(" ");
+		
+		
+	System.out.println("QUESTION 8: Extra Semicolon in for loop ");
+        System.out.println("What is wrong with the statement below?");
+		System.out.println(" ");
+        System.out.println("for (int i = 0; i < 10; i++);");
+		System.out.println(" ");
+        System.out.println("Choose an Appropriate answer:");
+        System.out.println("A. Nothing is Wrong.");
+        System.out.println("B. Extra semicolon after a for loop.");
+        System.out.println("C. This syntax is used in C. ");
+        String name8 = in.nextLine();
+        if (name8.equals( "A") ) {
+            System.out.println("Incorrect. A for loop does not require a semicolon after it's declaration. ");
+            System.out.println("A proper for loop is constructed as follows: for(int i = 0; i < 10; i++) { stuff to do.. } ");
+            System.out.println("The correct answer is B.");}
+        else if (name8.equals( "a") ) {
+            System.out.println("Incorrect. A for loop does not require a semicolon after it's declaration. ");
+            System.out.println("A proper for loop is constructed as follows: for(int i = 0; i < 10; i++) { stuff to do.. } ");
+            System.out.println("The correct answer is B."); }
+        else if (name8.equals( "B") ) {
+            System.out.println("Correct! A for loop does not require a semicolon after it's declaration."); }
+        else if (name8.equals( "b") ) {
+            System.out.println("Correct! A for loop does not require a semicolon after it's declaration."); }
+        else if(name8.equals("C") ) {
+            System.out.println("Incorrect. The correct answer is B."); }
+        else if(name8.equals("c") ) {
+            System.out.println("Incorrect. The correct answer is B."); }
+        else {
+            System.out.println("Invalid Input. The correct answer is B.");  }
 	}
+
 }
 
