@@ -209,17 +209,19 @@ public class Question{
         System.out.println("D. 3*3*3*3 ");
         String name7 = in.nextLine();
         if (name7.equals( "A") ) {
-            System.out.println("Incorrect. It's missing 3. Instead of x there should be 3."); }
-		System.out.println("The correct answer is C.");
+            System.out.println("Incorrect. It's missing 3. Instead of x there should be 3."); 
+		System.out.println("The correct answer is C."); }
         else if (name7.equals( "a") ) {
-            System.out.println("Incorect. It's missing 3. Instead of x there should be 3."); }
-		System.out.println("The correct answer is C.");
+            System.out.println("Incorect. It's missing 3. Instead of x there should be 3."); 
+		System.out.println("The correct answer is C."); }
         else if (name7.equals( "B") ) {
-            System.out.println("Incorrect. You've used the caret operator (^) with two integers, probably expecting it to raise one integer to the other. This operator in C++ is responsible for XOR (exclusive OR). If you want to raise an integer, use the <cmath> function pow."); }
-		System.out.println("The correct answer is C.");
+            System.out.println("Incorrect. You've used the caret operator (^) with two integers, probably expecting it to raise one integer to the other. This operator in C++ is responsible for XOR (exclusive OR).");
+	     System.out.println("If you want to raise an integer, use the <cmath> function pow."); 
+		System.out.println("The correct answer is C."); }
         else if (name7.equals( "b") ) {
-            System.out.println("Incorrect. You've used the caret operator (^) with two integers, probably expecting it to raise one integer to the other. This operator in C++ is responsible for XOR (exclusive OR). If you want to raise an integer, use the <cmath> function pow."); }
-		System.out.println("The correct answer is C.");
+            System.out.println("Incorrect. You've used the caret operator (^) with two integers, probably expecting it to raise one integer to the other. This operator in C++ is responsible for XOR (exclusive OR).");
+	     System.out.println("If you want to raise an integer, use the <cmath> function pow."); 
+		System.out.println("The correct answer is C."); }
         else if (name7.equals( "D") ) {
             System.out.println("Incorrect. Only valid in MATH not in C++."); }
 		System.out.println("The correct answer is C.");
@@ -245,6 +247,7 @@ public class Question{
         System.out.println("for (int i = 0; i < 10; i++);");
 		System.out.println(" ");
         System.out.println("Choose an Appropriate answer:");
+		System.out.println(" ");
         System.out.println("A. Nothing is Wrong.");
         System.out.println("B. Extra semicolon after a for loop.");
         System.out.println("C. This syntax is used in C. ");
@@ -277,6 +280,7 @@ public class Question{
 
         System.out.println(" ");
 	System.out.println("Choose an Appropriate answer:");
+		System.out.println(" ");
         System.out.println("A. int arr[x];");
         System.out.println("B.  int *p = arr[x]; ");
         System.out.println("C.  int *p = new arr[x]; ");
@@ -315,36 +319,40 @@ public class Question{
 		System.out.println("int *x = null_ptr; cout << *x; ");
 		System.out.println(" ");
 		System.out.println("Choose an Appropriate answer:");
+		System.out.println(" ");
         System.out.println("A. Prints whatever is in the memory address.");
         System.out.println("B. Nothing Wrong. ");
         System.out.println("C. You can not cout a pointer.");	
 	System.out.println("D. Dereferencing a Null pointer.");
-		String name8 = in.nextLine();
-        if (name8.equals( "A") ) {
+		String name10 = in.nextLine();
+        if (name10.equals( "A") ) {
             System.out.println("Incorrect. You are dereferencing a null pointer. ");
              System.out.println("The correct answer is D.");}
-        else if (name8.equals( "a") ) {
+        else if (name10.equals( "a") ) {
             System.out.println("Incorrect. You are dereferencing a null pointer. ");
             System.out.println("The correct answer is B."); }
-        else if (name8.equals( "B") ) {
+        else if (name10.equals( "B") ) {
              System.out.println("Incorrect. You are dereferencing a null pointer. ");
              System.out.println("The correct answer is D.");}
-        else if (name8.equals( "b") ) {
+        else if (name10.equals( "b") ) {
              System.out.println("Incorrect. You are dereferencing a null pointer. ");
              System.out.println("The correct answer is D.");}
-	lse if (name8.equals( "C") ) {
+	else if (name10.equals( "C") ) {
              System.out.println("Incorrect. You are dereferencing a null pointer. ");
              System.out.println("The correct answer is D.");}
-        else if (name8.equals( "c") ) {
+        else if (name10.equals( "c") ) {
              System.out.println("Incorrect. You are dereferencing a null pointer. ");
              System.out.println("The correct answer is D.");}	
-        else if(name8.equals("D") ) {
+        else if(name10.equals("D") ) {
             System.out.println("Correct!"); }
-        else if(name8.equals("d") ) {
+        else if(name10.equals("d") ) {
             System.out.println("Correct!"); }
 		
         else {
             System.out.println("Invalid Input. The correct answer is D.");  }
+		System.out.println(" " );
+		System.out.println(" ");
+		System.out.println(" ");
 }
 }
 
