@@ -44,16 +44,15 @@
 6. Correct way of writing for loops [DONE]
 7. Caret operator vs pow() function [IN PROGRESS - EMMY]
 8. Extra semicolon after a for loop [DONE]
+9. Improper array initialization [DONE]
 
 
 - CONTINUE LISTING IN ORDER AS QUESTIONS ARE COMPLETED:
 - Missing semicolon after class
-
 - Dereferencing a null pointer
 - Single | and & in if statements
 - Undeclared functions
 - Variable scoping issue
 - Incorrect pointer/function operator
-- Improper array initialization
 - Loss of data
 - Using one too many or too few parentheses
