@@ -42,7 +42,7 @@
 4. Magic [DONE]
 5. Single equal in if statement [DONE]
 6. Correct way of writing for loops [DONE]
-7. Caret operator vs pow() function [IN PROGRESS - EMMY]
+7. Caret operator vs pow() function [DONE]
 8. Extra semicolon after a for loop [DONE]
 9. Improper array initialization [DONE]
 10. Dereferencing a null pointer [DONE]
