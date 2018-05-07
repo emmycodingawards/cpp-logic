@@ -267,6 +267,44 @@ public class Question{
             System.out.println("Incorrect. The correct answer is B."); }
         else {
             System.out.println("Invalid Input. The correct answer is B.");  }
+		
+		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println(" ");
+		
+	 System.out.println("QUESTION 9: Variable sized array");
+        System.out.println("What is the right syntax in C++ to declare a variable sized array?");
+
+        System.out.println("Choose an Appropriate answer:");
+        System.out.println("A. int arr[x];");
+        System.out.println("B.  int *p = arr[x]; ");
+        System.out.println("C.  int *p = new arr[x]; ");
+        String name9 = in.nextLine();
+        if (name9.equals( "A") ) {
+            System.out.println("Incorrect. To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
+            System.out.println("integer pointer to the beginning of an int arr with size x.. ");
+            System.out.println("The correct answer is C."); }
+        else if (name9.equals( "a") ) {
+            System.out.println("Incorrect. To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
+            System.out.println("integer pointer to the beginning of an int arr with size x.. ");
+            System.out.println("The correct answer is C."); }
+        else if (name9.equals( "B") ) {
+            System.out.println("Incorrect! To declare a variable sized array. You must invoke the new function. But this is missing the new function."); }
+        else if (name9.equals( "b") ) {
+            System.out.println("Incorrect! To declare a variable sized array. You must invoke the new function. But this is missing the new function."); }
+        else if(name9.equals("C") ) {
+            System.out.println("Correct!");
+            System.out.println("To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
+            System.out.println("integer pointer to the beginning of an int arr with size x. "); }
+        else if(name9.equals("c") ) {
+            System.out.println("Correct!");
+            System.out.println("To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
+            System.out.println("integer pointer to the beginning of an int arr with size x. "); }
+        else {
+            System.out.println("Invalid Input. The correct answer is C.");  }
+
+	
+	
 	}
 
 }
