@@ -45,12 +45,11 @@
 7. Caret operator vs pow() function [IN PROGRESS - EMMY]
 8. Extra semicolon after a for loop [DONE]
 9. Improper array initialization [DONE]
-
+10. Dereferencing a null pointer [DONE]
+11. Single | and & in if statements [DONE]
 
 - CONTINUE LISTING IN ORDER AS QUESTIONS ARE COMPLETED:
 - Missing semicolon after class
-- Dereferencing a null pointer
-- Single | and & in if statements
 - Undeclared functions
 - Variable scoping issue
 - Incorrect pointer/function operator
