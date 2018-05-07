@@ -275,10 +275,12 @@ public class Question{
 	 System.out.println("QUESTION 9: Variable sized array");
         System.out.println("What is the right syntax in C++ to declare a variable sized array?");
 
-        System.out.println("Choose an Appropriate answer:");
+        System.out.println(" ");
+	System.out.println("Choose an Appropriate answer:");
         System.out.println("A. int arr[x];");
         System.out.println("B.  int *p = arr[x]; ");
         System.out.println("C.  int *p = new arr[x]; ");
+
         String name9 = in.nextLine();
         if (name9.equals( "A") ) {
             System.out.println("Incorrect. To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
@@ -302,10 +304,47 @@ public class Question{
             System.out.println("integer pointer to the beginning of an int arr with size x. "); }
         else {
             System.out.println("Invalid Input. The correct answer is C.");  }
-
+		System.out.println(" " );
 	
-	
-	}
-
+	System.out.println("QUESTION 10: Null pointer");
+		 System.out.println("Why would the code below not work?");
+		System.out.println(" " );
+		System.out.println(" ");
+		System.out.println(" ");
+		
+		System.out.println("int *x = null_ptr; cout << *x; ");
+		System.out.println(" ");
+		System.out.println("Choose an Appropriate answer:");
+        System.out.println("A. Prints whatever is in the memory address.");
+        System.out.println("B. Nothing Wrong. ");
+        System.out.println("C. You can not cout a pointer.");	
+	System.out.println("D. Dereferencing a Null pointer.");
+		String name8 = in.nextLine();
+        if (name8.equals( "A") ) {
+            System.out.println("Incorrect. You are dereferencing a null pointer. ");
+             System.out.println("The correct answer is D.");}
+        else if (name8.equals( "a") ) {
+            System.out.println("Incorrect. You are dereferencing a null pointer. ");
+            System.out.println("The correct answer is B."); }
+        else if (name8.equals( "B") ) {
+             System.out.println("Incorrect. You are dereferencing a null pointer. ");
+             System.out.println("The correct answer is D.");}
+        else if (name8.equals( "b") ) {
+             System.out.println("Incorrect. You are dereferencing a null pointer. ");
+             System.out.println("The correct answer is D.");}
+	lse if (name8.equals( "C") ) {
+             System.out.println("Incorrect. You are dereferencing a null pointer. ");
+             System.out.println("The correct answer is D.");}
+        else if (name8.equals( "c") ) {
+             System.out.println("Incorrect. You are dereferencing a null pointer. ");
+             System.out.println("The correct answer is D.");}	
+        else if(name8.equals("D") ) {
+            System.out.println("Correct!"); }
+        else if(name8.equals("d") ) {
+            System.out.println("Correct!"); }
+		
+        else {
+            System.out.println("Invalid Input. The correct answer is D.");  }
+}
 }
 
