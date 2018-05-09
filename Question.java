@@ -17,7 +17,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 
-
+		//Question 1
 		System.out.println("QUESTION 1: Cin Statements ");
 		System.out.println("What is the right syntax for a cin statement?");
 		String name = in.nextLine();
@@ -36,6 +36,7 @@ public class Question{
 		System.out.println(" ");
 		cpp_ll.insert_last(1, "Cin Statements"); //write 1st topic into the end of the linked list
 
+		//Question2
 		System.out.println("QUESTION 2: Cout Statements ");
 		System.out.println("What is the right syntax for a cout statement?");
 		String name2 = in.nextLine();
@@ -56,7 +57,7 @@ public class Question{
 		System.out.println(" ");
 		cpp_ll.insert_last(2, "Cout Statements"); //write 2nd topic into the end of the linked list
 
-
+		//Question 3
 		System.out.println("QUESTION 3: Debugging Compiler Error");
 		System.out.println("Why would the code below not compile?");
 		System.out.println(" ");
@@ -88,7 +89,7 @@ public class Question{
 		System.out.println(" ");
 		cpp_ll.insert_last(3, "Debugging Compiler Error"); //write 3rd topic into the end of the linked list
 
-
+		//Question 4
 		System.out.println("QUESTION 4: Magic");
 		System.out.println("Which part of the 'magic' is incorrect? ");
 		System.out.println("include <iostream>");
@@ -125,7 +126,7 @@ public class Question{
 		System.out.println(" ");
 		cpp_ll.insert_last(4, "Magic"); //write 4th topic into the end of the linked list
 
-
+		//Question 5
 		System.out.println("QUESTION 5: If Statements");
 		System.out.println("How would you write code that outputs 42 if the user inputs 20?");
 		System.out.println("x is an int that is storing the user's input.");
@@ -164,7 +165,7 @@ public class Question{
 		System.out.println(" ");
 		cpp_ll.insert_last(5, "If Statements"); //write 5th topic into the end of the linked list
 
-
+		//Question 6
 		System.out.println("QUESTION 6: For Loops");
 		System.out.println("Which of these is King Kerney's preferred way of outputting the numbers from 1 to 10?");
 		System.out.println("Choose the correct answer:");
@@ -204,164 +205,163 @@ public class Question{
 		System.out.println(" ");
 		cpp_ll.insert_last(6, "For Loops"); //write 6th topic into the end of the linked list
 
-			
+		//Question 7
 		System.out.println("QUESTION 7: Power operator");
 		System.out.println("How would you raise 3 to the 4th power in C++?");
-		 System.out.println("Choose an Appropriate answer:");
-        System.out.println("A. pow(x, 4)");
-        System.out.println("B. 3^4 ");
-        System.out.println("C. pow(3,4) ");
-        System.out.println("D. 3*3*3*3 ");
-        String name7 = in.nextLine();
-        if (name7.equals( "A") ) {
-            System.out.println("Incorrect. It's missing 3. Instead of x there should be 3."); 
-		System.out.println("The correct answer is C."); }
-        else if (name7.equals( "a") ) {
-            System.out.println("Incorect. It's missing 3. Instead of x there should be 3."); 
-		System.out.println("The correct answer is C."); }
-        else if (name7.equals( "B") ) {
-            System.out.println("Incorrect. You've used the caret operator (^) with two integers, probably expecting it to raise one integer to the other. This operator in C++ is responsible for XOR (exclusive OR).");
-	     System.out.println("If you want to raise an integer, use the <cmath> function pow."); 
-		System.out.println("The correct answer is C."); }
-        else if (name7.equals( "b") ) {
-            System.out.println("Incorrect. You've used the caret operator (^) with two integers, probably expecting it to raise one integer to the other. This operator in C++ is responsible for XOR (exclusive OR).");
-	     System.out.println("If you want to raise an integer, use the <cmath> function pow."); 
-		System.out.println("The correct answer is C."); }
-        else if (name7.equals( "D") ) {
-            System.out.println("Incorrect. Only valid in MATH not in C++."); }
+		System.out.println("Choose an Appropriate answer:");
+		System.out.println("A. pow(x, 4)");
+		System.out.println("B. 3^4 ");
+		System.out.println("C. pow(3,4) ");
+		System.out.println("D. 3*3*3*3 ");
+		String name7 = in.nextLine();
+		if (name7.equals( "A") ) {
+			System.out.println("Incorrect. It's missing 3. Instead of x there should be 3."); 
+			System.out.println("The correct answer is C."); }
+		else if (name7.equals( "a") ) {
+			System.out.println("Incorect. It's missing 3. Instead of x there should be 3."); 
+			System.out.println("The correct answer is C."); }
+		else if (name7.equals( "B") ) {
+			System.out.println("Incorrect. You've used the caret operator (^) with two integers, probably expecting it to raise one integer to the other. This operator in C++ is responsible for XOR (exclusive OR).");
+			System.out.println("If you want to raise an integer, use the <cmath> function pow."); 
+			System.out.println("The correct answer is C."); }
+		else if (name7.equals( "b") ) {
+			System.out.println("Incorrect. You've used the caret operator (^) with two integers, probably expecting it to raise one integer to the other. This operator in C++ is responsible for XOR (exclusive OR).");
+			System.out.println("If you want to raise an integer, use the <cmath> function pow."); 
+			System.out.println("The correct answer is C."); }
+		else if (name7.equals( "D") ) {
+			System.out.println("Incorrect. Only valid in MATH not in C++."); }
 		System.out.println("The correct answer is C.");
-        else if (name7.equals( "d") ) {
-            System.out.println("Incorrect. Only valid in MATH not in C++."); }
+		else if (name7.equals( "d") ) {
+			System.out.println("Incorrect. Only valid in MATH not in C++."); }
 		System.out.println("The correct answer is C.");		
-        else if(name7.equals("C") ) {
-            System.out.println("Correct! "); }
-        else if(name7.equals("c") ) {
-            System.out.println("Correct! "); }
-        else {
-            System.out.println("Invalid Input.The correct answer is C.");  }
+		else if(name7.equals("C") ) {
+			System.out.println("Correct! "); }
+		else if(name7.equals("c") ) {
+			System.out.println("Correct! "); }
+		else {
+			System.out.println("Invalid Input.The correct answer is C.");  }
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-	cpp_ll.insert_last(7, "Power Operator"); //write 7th topic into the end of the linked list
+		cpp_ll.insert_last(7, "Power Operator"); //write 7th topic into the end of the linked list
 
-		
-	System.out.println("QUESTION 8: Extra Semicolon in for loop");
-        System.out.println("What is wrong with the statement below?");
+		//Question 8
+		System.out.println("QUESTION 8: Extra Semicolon in for loop");
+		System.out.println("What is wrong with the statement below?");
 		System.out.println(" ");
-        System.out.println("for (int i = 0; i < 10; i++);");
+		System.out.println("for (int i = 0; i < 10; i++);");
 		System.out.println(" ");
-        System.out.println("Choose an Appropriate answer:");
+		System.out.println("Choose an Appropriate answer:");
 		System.out.println(" ");
-        System.out.println("A. Nothing is Wrong.");
-        System.out.println("B. Extra semicolon after a for loop.");
-        System.out.println("C. This syntax is used in C. ");
-        String name8 = in.nextLine();
-        if (name8.equals( "A") ) {
-            System.out.println("Incorrect. A for loop does not require a semicolon after it's declaration. ");
-            System.out.println("A proper for loop is constructed as follows: for(int i = 0; i < 10; i++) { stuff to do.. } ");
-            System.out.println("The correct answer is B.");}
-        else if (name8.equals( "a") ) {
-            System.out.println("Incorrect. A for loop does not require a semicolon after it's declaration. ");
-            System.out.println("A proper for loop is constructed as follows: for(int i = 0; i < 10; i++) { stuff to do.. } ");
-            System.out.println("The correct answer is B."); }
-        else if (name8.equals( "B") ) {
-            System.out.println("Correct! A for loop does not require a semicolon after it's declaration."); }
-        else if (name8.equals( "b") ) {
-            System.out.println("Correct! A for loop does not require a semicolon after it's declaration."); }
-        else if(name8.equals("C") ) {
-            System.out.println("Incorrect. The correct answer is B."); }
-        else if(name8.equals("c") ) {
-            System.out.println("Incorrect. The correct answer is B."); }
-        else {
-            System.out.println("Invalid Input. The correct answer is B.");  }
+		System.out.println("A. Nothing is Wrong.");
+		System.out.println("B. Extra semicolon after a for loop.");
+		System.out.println("C. This syntax is used in C. ");
+		String name8 = in.nextLine();
+		if (name8.equals( "A") ) {
+			System.out.println("Incorrect. A for loop does not require a semicolon after it's declaration. ");
+			System.out.println("A proper for loop is constructed as follows: for(int i = 0; i < 10; i++) { stuff to do.. } ");
+			System.out.println("The correct answer is B.");}
+		else if (name8.equals( "a") ) {
+			System.out.println("Incorrect. A for loop does not require a semicolon after it's declaration. ");
+			System.out.println("A proper for loop is constructed as follows: for(int i = 0; i < 10; i++) { stuff to do.. } ");
+			System.out.println("The correct answer is B."); }
+		else if (name8.equals( "B") ) {
+			System.out.println("Correct! A for loop does not require a semicolon after it's declaration."); }
+		else if (name8.equals( "b") ) {
+			System.out.println("Correct! A for loop does not require a semicolon after it's declaration."); }
+		else if(name8.equals("C") ) {
+			System.out.println("Incorrect. The correct answer is B."); }
+		else if(name8.equals("c") ) {
+			System.out.println("Incorrect. The correct answer is B."); }
+		else {
+			System.out.println("Invalid Input. The correct answer is B.");  }
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-	cpp_ll.insert_last(8, "Extra Semicolon in for loop"); //write 8th topic into the end of the linked list
-		
-		
-	 System.out.println("QUESTION 9: Variable sized array");
-        System.out.println("What is the right syntax in C++ to declare a variable sized array?");
-        System.out.println(" ");
-	System.out.println("Choose an Appropriate answer:");
+		cpp_ll.insert_last(8, "Extra Semicolon in for loop"); //write 8th topic into the end of the linked list
+
+		//Question 9
+		System.out.println("QUESTION 9: Variable sized array");
+		System.out.println("What is the right syntax in C++ to declare a variable sized array?");
 		System.out.println(" ");
-        System.out.println("A. int arr[x];");
-        System.out.println("B.  int *p = arr[x]; ");
-        System.out.println("C.  int *p = new arr[x]; ");
-        String name9 = in.nextLine();
-        if (name9.equals( "A") ) {
-            System.out.println("Incorrect. To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
-            System.out.println("integer pointer to the beginning of an int arr with size x.. ");
-            System.out.println("The correct answer is C."); }
-        else if (name9.equals( "a") ) {
-            System.out.println("Incorrect. To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
-            System.out.println("integer pointer to the beginning of an int arr with size x.. ");
-            System.out.println("The correct answer is C."); }
-        else if (name9.equals( "B") ) {
-            System.out.println("Incorrect! To declare a variable sized array. You must invoke the new function. But this is missing the new function."); }
-        else if (name9.equals( "b") ) {
-            System.out.println("Incorrect! To declare a variable sized array. You must invoke the new function. But this is missing the new function."); }
-        else if(name9.equals("C") ) {
-            System.out.println("Correct!");
-            System.out.println("To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
-            System.out.println("integer pointer to the beginning of an int arr with size x. "); }
-        else if(name9.equals("c") ) {
-            System.out.println("Correct!");
-            System.out.println("To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
-            System.out.println("integer pointer to the beginning of an int arr with size x. "); }
-        else {
-            System.out.println("Invalid Input. The correct answer is C.");  }
+		System.out.println("Choose an Appropriate answer:");
+		System.out.println(" ");
+		System.out.println("A. int arr[x];");
+		System.out.println("B.  int *p = arr[x]; ");
+		System.out.println("C.  int *p = new arr[x]; ");
+		String name9 = in.nextLine();
+		if (name9.equals( "A") ) {
+			System.out.println("Incorrect. To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
+			System.out.println("integer pointer to the beginning of an int arr with size x.. ");
+			System.out.println("The correct answer is C."); }
+		else if (name9.equals( "a") ) {
+			System.out.println("Incorrect. To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
+			System.out.println("integer pointer to the beginning of an int arr with size x.. ");
+			System.out.println("The correct answer is C."); }
+		else if (name9.equals( "B") ) {
+			System.out.println("Incorrect! To declare a variable sized array. You must invoke the new function. But this is missing the new function."); }
+		else if (name9.equals( "b") ) {
+			System.out.println("Incorrect! To declare a variable sized array. You must invoke the new function. But this is missing the new function."); }
+		else if(name9.equals("C") ) {
+			System.out.println("Correct!");
+			System.out.println("To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
+			System.out.println("integer pointer to the beginning of an int arr with size x. "); }
+		else if(name9.equals("c") ) {
+			System.out.println("Correct!");
+			System.out.println("To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
+			System.out.println("integer pointer to the beginning of an int arr with size x. "); }
+		else {
+			System.out.println("Invalid Input. The correct answer is C.");  }
 		System.out.println(" " );
 		System.out.println(" ");
 		System.out.println(" ");
-	cpp_ll.insert_last(9, "Variable sized array"); //write 9th topic into the end of the linked list
-		
-		
-	System.out.println("QUESTION 10: Null pointer");
-		 System.out.println("Why would the code below not work?");
+		cpp_ll.insert_last(9, "Variable sized array"); //write 9th topic into the end of the linked list
+
+		//Question 10
+		System.out.println("QUESTION 10: Null pointer");
+		System.out.println("Why would the code below not work?");
 		System.out.println(" " );
-		 		
 		System.out.println("int *x = null_ptr; cout << *x; ");
 		System.out.println(" ");
 		System.out.println("Choose an Appropriate answer:");
 		System.out.println(" ");
-        System.out.println("A. Prints whatever is in the memory address.");
-        System.out.println("B. Nothing Wrong. ");
-        System.out.println("C. You can not cout a pointer.");	
-	System.out.println("D. Dereferencing a Null pointer.");
+		System.out.println("A. Prints whatever is in the memory address.");
+		System.out.println("B. Nothing Wrong. ");
+		System.out.println("C. You can not cout a pointer.");	
+		System.out.println("D. Dereferencing a Null pointer.");
 		String name10 = in.nextLine();
-        if (name10.equals( "A") ) {
-            System.out.println("Incorrect. You are dereferencing a null pointer. ");
-             System.out.println("The correct answer is D.");}
-        else if (name10.equals( "a") ) {
-            System.out.println("Incorrect. You are dereferencing a null pointer. ");
-            System.out.println("The correct answer is B."); }
-        else if (name10.equals( "B") ) {
-             System.out.println("Incorrect. You are dereferencing a null pointer. ");
-             System.out.println("The correct answer is D.");}
-        else if (name10.equals( "b") ) {
-             System.out.println("Incorrect. You are dereferencing a null pointer. ");
-             System.out.println("The correct answer is D.");}
-	else if (name10.equals( "C") ) {
-             System.out.println("Incorrect. You are dereferencing a null pointer. ");
-             System.out.println("The correct answer is D.");}
-        else if (name10.equals( "c") ) {
-             System.out.println("Incorrect. You are dereferencing a null pointer. ");
-             System.out.println("The correct answer is D.");}	
-        else if(name10.equals("D") ) {
-            System.out.println("Correct!"); }
-        else if(name10.equals("d") ) {
-            System.out.println("Correct!"); }
-		
-        else {
-            System.out.println("Invalid Input. The correct answer is D.");  }
+		if (name10.equals( "A") ) {
+			System.out.println("Incorrect. You are dereferencing a null pointer. ");
+			System.out.println("The correct answer is D.");}
+		else if (name10.equals( "a") ) {
+			System.out.println("Incorrect. You are dereferencing a null pointer. ");
+			System.out.println("The correct answer is B."); }
+		else if (name10.equals( "B") ) {
+			System.out.println("Incorrect. You are dereferencing a null pointer. ");
+			System.out.println("The correct answer is D.");}
+		else if (name10.equals( "b") ) {
+			System.out.println("Incorrect. You are dereferencing a null pointer. ");
+			System.out.println("The correct answer is D.");}
+		else if (name10.equals( "C") ) {
+			System.out.println("Incorrect. You are dereferencing a null pointer. ");
+			System.out.println("The correct answer is D.");}
+		else if (name10.equals( "c") ) {
+			System.out.println("Incorrect. You are dereferencing a null pointer. ");
+			System.out.println("The correct answer is D.");}	
+		else if(name10.equals("D") ) {
+			System.out.println("Correct!"); }
+		else if(name10.equals("d") ) {
+			System.out.println("Correct!"); }
+
+		else {
+			System.out.println("Invalid Input. The correct answer is D.");  }
 		System.out.println(" " );
 		System.out.println(" ");
 		System.out.println(" ");
-	cpp_ll.insert_last(10, "Null Pointer"); //write 10th topic into the end of the linked list
-		
-		
-	System.out.println("QUESTION 11: Single | and & in if statements");
+		cpp_ll.insert_last(10, "Null Pointer"); //write 10th topic into the end of the linked list
+
+		//Question 11
+		System.out.println("QUESTION 11: Single | and & in if statements");
 		System.out.println("What will the code print to the screen?");
 		System.out.println( " ");
 		System.out.println("int x = 5; int y = 8;");
@@ -388,8 +388,10 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-	cpp_ll.insert_last(11, "Single | and & in if statements"); //write 11th topic into the end of the linked list
-		
-}
+		cpp_ll.insert_last(11, "Single | and & in if statements"); //write 11th topic into the end of the linked list
+	}
 }
 
+
+
+		
