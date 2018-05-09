@@ -34,7 +34,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-
+		cpp_ll.insert_last(1, "Cin Statements"); //write 1st topic into the end of the linked list
 
 		System.out.println("QUESTION 2: Cout Statements ");
 		System.out.println("What is the right syntax for a cout statement?");
@@ -54,6 +54,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
+		cpp_ll.insert_last(2, "Cout Statements"); //write 2nd topic into the end of the linked list
 
 
 		System.out.println("QUESTION 3: Debugging Compiler Error");
@@ -85,6 +86,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
+		cpp_ll.insert_last(3, "Debugging Compiler Error"); //write 3rd topic into the end of the linked list
 
 
 		System.out.println("QUESTION 4: Magic");
@@ -121,6 +123,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
+		cpp_ll.insert_last(4, "Magic"); //write 4th topic into the end of the linked list
 
 
 		System.out.println("QUESTION 5: If Statements");
@@ -159,6 +162,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
+		cpp_ll.insert_last(5, "If Statements"); //write 5th topic into the end of the linked list
 
 
 		System.out.println("QUESTION 6: For Loops");
@@ -195,11 +199,12 @@ public class Question{
 			System.out.println("Incorrect. This for loop prints the numbers 1 through 11. The correct answer is A."); }
 		else {
 			System.out.println("Invalid Input. The correct answer is A.");  }
-		
-		
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
+		cpp_ll.insert_last(6, "For Loops"); //write 6th topic into the end of the linked list
+
+			
 		System.out.println("QUESTION 7: Power operator");
 		System.out.println("How would you raise 3 to the 4th power in C++?");
 		 System.out.println("Choose an Appropriate answer:");
@@ -227,21 +232,20 @@ public class Question{
 		System.out.println("The correct answer is C.");
         else if (name7.equals( "d") ) {
             System.out.println("Incorrect. Only valid in MATH not in C++."); }
-		System.out.println("The correct answer is C.");
-			
+		System.out.println("The correct answer is C.");		
         else if(name7.equals("C") ) {
             System.out.println("Correct! "); }
         else if(name7.equals("c") ) {
             System.out.println("Correct! "); }
         else {
             System.out.println("Invalid Input.The correct answer is C.");  }
-		
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
+	cpp_ll.insert_last(7, "Power Operator"); //write 7th topic into the end of the linked list
+
 		
-		
-	System.out.println("QUESTION 8: Extra Semicolon in for loop ");
+	System.out.println("QUESTION 8: Extra Semicolon in for loop");
         System.out.println("What is wrong with the statement below?");
 		System.out.println(" ");
         System.out.println("for (int i = 0; i < 10; i++);");
@@ -270,21 +274,20 @@ public class Question{
             System.out.println("Incorrect. The correct answer is B."); }
         else {
             System.out.println("Invalid Input. The correct answer is B.");  }
+		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println(" ");
+	cpp_ll.insert_last(8, "Extra Semicolon in for loop"); //write 8th topic into the end of the linked list
 		
-		System.out.println(" ");
-		System.out.println(" ");
-		System.out.println(" ");
 		
 	 System.out.println("QUESTION 9: Variable sized array");
         System.out.println("What is the right syntax in C++ to declare a variable sized array?");
-
         System.out.println(" ");
 	System.out.println("Choose an Appropriate answer:");
 		System.out.println(" ");
         System.out.println("A. int arr[x];");
         System.out.println("B.  int *p = arr[x]; ");
         System.out.println("C.  int *p = new arr[x]; ");
-
         String name9 = in.nextLine();
         if (name9.equals( "A") ) {
             System.out.println("Incorrect. To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
@@ -309,7 +312,11 @@ public class Question{
         else {
             System.out.println("Invalid Input. The correct answer is C.");  }
 		System.out.println(" " );
-	
+		System.out.println(" ");
+		System.out.println(" ");
+	cpp_ll.insert_last(9, "Variable sized array"); //write 9th topic into the end of the linked list
+		
+		
 	System.out.println("QUESTION 10: Null pointer");
 		 System.out.println("Why would the code below not work?");
 		System.out.println(" " );
@@ -351,6 +358,8 @@ public class Question{
 		System.out.println(" " );
 		System.out.println(" ");
 		System.out.println(" ");
+	cpp_ll.insert_last(10, "Null Pointer"); //write 10th topic into the end of the linked list
+		
 		
 	System.out.println("QUESTION 11: Single | and & in if statements");
 		System.out.println("What will the code print to the screen?");
@@ -361,7 +370,6 @@ public class Question{
 		System.out.println("else cout << \"WRONG\" ");
 		System.out.println( " ");
 		System.out.println( "Please Type in your answer below: ");
-		
 		String name11 = in.nextLine();
 		if (name11.equals( "AWESOME") ) {
 			System.out.println("Inorrect! You've not used the && operator properly."); }
@@ -380,7 +388,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-
+	cpp_ll.insert_last(11, "Single | and & in if statements"); //write 11th topic into the end of the linked list
 		
 }
 }
