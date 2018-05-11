@@ -228,7 +228,7 @@ public class Question{
 		System.out.println("A. if (x = 20)  cout << 42; ");
 		System.out.println("B. if (x == 20) cout << 42 ");
 		System.out.println("C. if (x != \"20\") cout << 42; ");
-		System.out.println("D. if (x == \"20\") cout << 42; ");
+		System.out.println("D. if (x == 20) cout << 42; ");
 		String name5 = in.nextLine();
 		if (name5.equals( "D") ) {
 			System.out.println("Correct!"); 
@@ -269,7 +269,7 @@ public class Question{
 		System.out.println(" " );
 		System.out.println("Choose the correct answer:");
 		System.out.println(" ");
-		System.out.println("A. for (int i = 0; i < 10; i++ ) ");
+		System.out.println("A. for (int i = 0; i < 10; i++ ) { ");
 		System.out.println("   cout << i << endl;");
 		System.out.println("   }");
 		System.out.println("B. for (int i = 1; i <= 9; i++) { ");
