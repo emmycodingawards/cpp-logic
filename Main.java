@@ -1,8 +1,8 @@
-import.java.util
+import java.util.*;
 
-class main (
+public class Main {
 
-		public statis void main(String[] args) {
+		public static void main(String[] args) {
 
 
 
