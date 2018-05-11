@@ -1,9 +1,63 @@
 import java.util.Scanner;
+//import java.util.BitSet;
+//import java.lang.Object;
+import java.io.*;
+import java.net.*;
+
 public class Question{
+
+// Total for 1111 1111 1111 = 4095	
+	public static final int Q1 = 1 << 0;
+	public static final int Q2 = 1 << 1;
+	public static final int Q3 = 1 << 2;
+	public static final int Q4 = 1 << 3;
+	public static final int Q5 = 1 << 4;
+	public static final int Q6 = 1 << 5;
+	public static final int Q7 = 1 << 6;
+	public static final int Q8 = 1 << 7;
+	public static final int Q9 = 1 << 8;
+	public static final int Q10 = 1 << 9;
+	public static final int Q11 = 1 << 10;
+	public static final int Q12 = 1 << 11;
+
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
+// Using BitSet to set binary value, i.e. q1.set(0) == 00000001
+/*		
+		BitSet q1 = new BitSet(N_BITS);
+		BitSet q2 = new BitSet(N_BITS);
+		BitSet q3 = new BitSet(N_BITS);
+		BitSet q4 = new BitSet(N_BITS);
+		BitSet q5 = new BitSet(N_BITS);
+		BitSet q6 = new BitSet(N_BITS);
+		BitSet q7 = new BitSet(N_BITS);
+		BitSet q8 = new BitSet(N_BITS);
+		BitSet q9 = new BitSet(N_BITS);
+		BitSet q10 = new BitSet(N_BITS);
+		BitSet q11 = new BitSet(N_BITS);
+		BitSet q12 = new BitSet(N_BITS);
+
+		q1.set(0);
+		q2.set(1);
+		q3.set(2);
+		q4.set(3);
+		q5.set(4);
+		q6.set(5);
+		q7.set(6);
+		q8.set(7);
+		q9.set(8);
+		q10.set(9);
+		q11.set(10);
+		q12.set(11);
+*/
+		Bitfield testing = new Bitfield();
+		testing.Set();
+		System.out.println(Q3);
+
+// End of Bitset initalization q1 through q12 for each question
 		LL cpp_ll = new LL();	
+		System.out.println();
 
 		System.out.println(" ");
 		System.out.println(" ");
@@ -449,7 +503,20 @@ public class Question{
 		//Call on Bitfield for score
 		System.out.println("The topics you should work on are as follows: ");
 		//Call on Linked List connected to Bitfield
+		
+		//Network call on localhosesocket 2021. Sends score to the server & receives a confirmation message.
 		System.out.println("Your score has just been sent to your professor through our network.");
+		try
+		{
+		Network client = new Network();
+		client.run(7);
+		}
+		catch(Exception e){
+
+			e.printStackTrace();
+		};
+		//End of network call
+
 		System.out.println(" ");
 		System.out.println("Good luck in your future computer science endeavors!");
 	}
