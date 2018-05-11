@@ -83,17 +83,23 @@ public class Question{
 		System.out.println("You are learning about C++ in Java. Mind boggling, right?");
 		System.out.println(" ");
 		System.out.println(" ");
-
+		
 		//Question 1
 		System.out.println("QUESTION 1: Cin Statements ");
 		System.out.println("What is the right syntax for a cin statement?");
 		String name = in.nextLine();
 		if (name.equals( "cin >>") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!");
+			Bitfield.set(Q1);
+		}
 		else if (name.equals( "cin>>") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!");
+			Bitfield.set(Q1);
+		}
 		else if (name.equals( ">>") ){
-			System.out.println("Correct!"); }
+			System.out.println("Correct!");
+			Bitfield.set(Q1);
+		}
 		else if (name.equals( "<<") ){
 			System.out.println("Arrows are in wrong direction."); }
 		else {
@@ -108,11 +114,17 @@ public class Question{
 		System.out.println("What is the right syntax for a cout statement?");
 		String name2 = in.nextLine();
 		if (name2.equals( "cout <<") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!");
+			Bitfield.set(Q2);
+		}
 		else if (name2.equals( "cout<<") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!");
+			Bitfield.set(Q2);
+		}
 		else if (name2.equals( "<<") ){
-			System.out.println("Correct!"); }
+			System.out.println("Correct!"); 
+			Bitfield.set(Q2);
+		}
 		else if (name2.equals( ">>") ){
 			System.out.println("Cout statements take the format of: cout << x; Note that it looks like there are arrows pointing FROM the variable TO cout. Your arrows are backwards."); }
 		else if (name2.equals("cout>>") ) {
@@ -138,9 +150,13 @@ public class Question{
 		System.out.println("C. Missing a semicolon.");
 		String name3 = in.nextLine();
 		if (name3.equals( "C") ) {
-			System.out.println("Correct! There is a semicolon missing after the endl."); }
+			System.out.println("Correct! There is a semicolon missing after the endl."); 
+			Bitfield.set(Q3);
+		}
 		else if (name3.equals( "c") ) {
-			System.out.println("Correct! There is a semicolon missing after the endl."); }
+			System.out.println("Correct! There is a semicolon missing after the endl."); 
+			Bitfield.set(Q3);
+		}
 		else if (name3.equals( "A") ) {
 			System.out.println("Incorrect. The arrows are pointing in the right direction. The correct answer is C."); }
 		else if (name3.equals( "a") ) {
@@ -171,9 +187,13 @@ public class Question{
 		System.out.println("D. There is nothing wrong");
 		String name4 = in.nextLine();
 		if (name4.equals( "A") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!"); 
+			Bitfield.set(Q4);
+		}
 		else if (name4.equals( "a") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!"); 
+			Bitfield.set(Q4);
+		}
 		else if (name4.equals( "B") ) {
 			System.out.println("Incorrect. The # is missing from in front of iostream."); 
 			System.out.println("The correct answer is A."); }
@@ -211,9 +231,13 @@ public class Question{
 		System.out.println("D. if (x == \"20\") cout << 42; ");
 		String name5 = in.nextLine();
 		if (name5.equals( "D") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!"); 
+			Bitfield.set(Q5);
+		}
 		else if (name5.equals( "d") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!"); 
+			Bitfield.set(Q5);
+		}
 		else if (name5.equals( "A") ) {
 			System.out.println("Incorrect. The correct answer is D.");
 			System.out.println(" = BAD.");
@@ -259,9 +283,13 @@ public class Question{
 		System.out.println("   }");
 		String name6 = in.nextLine();
 		if (name6.equals( "A") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!"); 
+			Bitfield.set(Q6);
+		}
 		else if (name6.equals( "a") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!"); 
+			Bitfield.set(Q6);
+		}
 		else if (name6.equals( "D") ) {
 			System.out.println("Incorrect. This for loop is off by one. The correct answer is A."); }
 		else if (name6.equals( "d") ) {
@@ -311,9 +339,13 @@ public class Question{
 			System.out.println("Incorrect. This is only valid in math, not in C++."); 
 			System.out.println("The correct answer is C."); }
 		else if(name7.equals("C") ) {
-			System.out.println("Correct! "); }
+			System.out.println("Correct! "); 
+			Bitfield.set(Q7);
+		}
 		else if(name7.equals("c") ) {
-			System.out.println("Correct! "); }
+			System.out.println("Correct! "); 
+			Bitfield.set(Q7);
+		}
 		else {
 			System.out.println("Invalid Input.The correct answer is C.");  }
 		System.out.println(" ");
@@ -342,9 +374,13 @@ public class Question{
 			System.out.println("A proper for loop is constructed as follows: for (int i = 0; i < 10; i++) { stuff to do.. } ");
 			System.out.println("The correct answer is B."); }
 		else if (name8.equals( "B") ) {
-			System.out.println("Correct! A for loop does not require a semicolon after its declaration."); }
+			System.out.println("Correct! A for loop does not require a semicolon after its declaration."); 
+			Bitfield.set(Q8);
+		}
 		else if (name8.equals( "b") ) {
-			System.out.println("Correct! A for loop does not require a semicolon after its declaration."); }
+			System.out.println("Correct! A for loop does not require a semicolon after its declaration."); 
+			Bitfield.set(Q8);
+		}
 		else if(name8.equals("C") ) {
 			System.out.println("Incorrect. The correct answer is B."); }
 		else if(name8.equals("c") ) {
@@ -381,11 +417,15 @@ public class Question{
 		else if(name9.equals("C") ) {
 			System.out.println("Correct!");
 			System.out.println("To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
-			System.out.println("integer pointer to the beginning of an int arr with size x. "); }
+			System.out.println("integer pointer to the beginning of an int arr with size x. "); 
+			Bitfield.set(Q9);
+		}
 		else if(name9.equals("c") ) {
 			System.out.println("Correct!");
 			System.out.println("To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
-			System.out.println("integer pointer to the beginning of an int arr with size x. "); }
+			System.out.println("integer pointer to the beginning of an int arr with size x. "); 
+			Bitfield.set(Q9);
+		}
 		else {
 			System.out.println("Invalid Input. The correct answer is C.");  }
 		System.out.println(" " );
@@ -425,9 +465,13 @@ public class Question{
 			System.out.println("Incorrect. You are dereferencing a null pointer. ");
 			System.out.println("The correct answer is D.");}	
 		else if(name10.equals("D") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!"); 
+			Bitfield.set(Q10);
+		}
 		else if(name10.equals("d") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!"); 
+			Bitfield.set(Q10);
+		}
 		else {
 			System.out.println("Invalid Input. The correct answer is D.");  }
 		System.out.println(" ");
@@ -453,11 +497,17 @@ public class Question{
 		else if (name11.equals( "awesome") ){
 			System.out.println("Incorrect! You've not used the && operator properly."); }
 		else if (name11.equals( "WRONG") ){
-			System.out.println(" Correct!"); }
+			System.out.println(" Correct!"); 
+			Bitfield.set(Q11);
+		}
 		else if (name11.equals( "wrong") ){
-			System.out.println(" Correct!"); }
+			System.out.println(" Correct!"); 
+			Bitfield.set(Q11);
+		}
 		else if (name11.equals( "Wrong") ){
-			System.out.println(" Correct!"); }
+			System.out.println(" Correct!"); 
+			Bitfield.set(Q11);
+		}
 		else {
 			System.out.println("Invalid Input. The correct answer was: WRONG");   }
 		System.out.println(" ");
@@ -477,9 +527,13 @@ public class Question{
 		System.out.println("D. Bill Kerney");
 		String name12 = in.nextLine();
 		if (name12.equals( "A") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!"); 
+			Bitfield.set(Q12);
+		}
 		else if (name12.equals( "a") ) {
-			System.out.println("Correct!"); }
+			System.out.println("Correct!"); 
+			Bitfield.set(Q12);
+		}
 		else if (name12.equals( "B") ) {
 			System.out.println("Incorrect. But Ada Lovelace was the first computer programmer.");
 			System.out.println("The correct answer is A."); }
@@ -508,8 +562,9 @@ public class Question{
 		System.out.println(" ");
 		System.out.println("Congratulations!");
 		System.out.println("You have reached the end of the C++ Logic Quiz!");
-		System.out.println("Your score: ");
+		System.out.print("Your score: ");
 		//Call on Bitfield for score
+		System.out.println(Bitfield.score() + "/12");
 		System.out.println("The topics you should work on are as follows: ");
 		//Call on Linked List connected to Bitfield
 		
