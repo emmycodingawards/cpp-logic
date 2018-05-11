@@ -47,11 +47,11 @@ public class Bitfield {
 	public static int datafield;
 
 	//Set passed in flag on data field
-	public static void Set(int flag) {
+	public static void set(int flag) {
 		datafield |= flag;
 	}
 	//Clear the passed in flag
-	public static void Clear(int flag) {
+	public static void clear(int flag) {
 		datafield = datafield & ~flag;
 	}
 	//Return true if the passed in flag is set

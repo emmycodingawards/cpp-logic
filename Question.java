@@ -5,7 +5,15 @@ import java.io.*;
 import java.net.*;
 
 public class Question{
-
+// In order to use Bitfield do the following:
+// All variables a methods are static so must be
+// accesed by doing Bitfield.method
+// The following are valid commands:
+// Bitfield.set(*);
+// Bitfield.clear(*);
+// Bitfield.isSet(*);
+// Bitfield.score();
+// * - Replace the astirsk with Q1 through Q12 depending on the question
 // Total for 1111 1111 1111 = 4095	
 	public static final int Q1 = 1 << 0;
 	public static final int Q2 = 1 << 1;
@@ -24,7 +32,7 @@ public class Question{
 		Scanner in = new Scanner(System.in);
 
 // Using BitSet to set binary value, i.e. q1.set(0) == 00000001
-/*		
+/*		LEGACY***
 		BitSet q1 = new BitSet(N_BITS);
 		BitSet q2 = new BitSet(N_BITS);
 		BitSet q3 = new BitSet(N_BITS);
@@ -50,10 +58,11 @@ public class Question{
 		q10.set(9);
 		q11.set(10);
 		q12.set(11);
-*/
-		Bitfield testing = new Bitfield();
-		testing.Set();
-		System.out.println(Q3);
+*///	LEGACY***
+
+//		Bitfield testing = new Bitfield();
+//		Bitfield.Set(Q2);
+//		System.out.println(Bitfield.score());
 
 // End of Bitset initalization q1 through q12 for each question
 		LL cpp_ll = new LL();	
