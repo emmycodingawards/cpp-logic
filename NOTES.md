@@ -32,7 +32,7 @@
 - User inputs answer 
 - Correct answer prints out on screen
 - Linked List/Bitfield are updated based on correctness
-- User is taken to next question if correct or taken back if there have been too many incorrect answers inputted
+- Program will output score and topics to work on at the end, as well as sending the user's score to their professor through networking
 
 # Questions (in order)
 0. C++ Logic Intro [DONE]
@@ -47,4 +47,4 @@
 9. Improper array initialization [DONE]
 10. Dereferencing a null pointer [DONE]
 11. Single | and & in if statements [DONE]
-12. Bonus C++ History Question
+12. Bonus C++ History Question [DONE]
