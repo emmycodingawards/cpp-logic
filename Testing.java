@@ -1,35 +1,7 @@
-// WIP Chris V.
-/*public class Bitfield {
+/*
+import java.util.Scanner;
 
-
-	public static enum Flag {
-	
-	}
-
-
-public boolean isEnabled(final int flag) {
-	        return (current & flag) == flag;
-			    }
-
-    public int current() {
-		        return current;
-				    }
-
-    public void enable(final int flag) {
-		        current |= flag;
-				    }
-
-    public void delete(final int flag) {
-		        current &= ~flag;
-				    }
-
-    public void toggle(final int flag) {
-		        current ^= flag;
-				    }
-
-}
-*/	
-public class Bitfield {
+public class Testing {
 
 	public static final int Q1 = 1 << 0;
 	public static final int Q2 = 1 << 1;
@@ -47,11 +19,11 @@ public class Bitfield {
 	public static int datafield;
 
 	//Set passed in flag on data field
-	public static void set(int flag) {
+	public static void Set(int flag) {
 		datafield |= flag;
 	}
 	//Clear the passed in flag
-	public static void clear(int flag) {
+	public static void Clear(int flag) {
 		datafield = datafield & ~flag;
 	}
 	//Return true if the passed in flag is set
@@ -59,10 +31,8 @@ public class Bitfield {
 		int _isSet = (datafield & flag);
 		if (_isSet < 1)
 			return false;
-		else
-			return true;
+		else return true;
 	}
-	//Method for total score
 	public static int score() {
 		int total = 0;
 		if(isSet(Q1))
@@ -91,4 +61,14 @@ public class Bitfield {
 			total++;
 		return total;
 	}
+	public static void main(String[] args) {
+		System.out.println(datafield);
+		Testing test = new Testing();
+		test.Set(Q2);
+		test.Set(Q4);
+		System.out.println(datafield);
+		System.out.println(test.isSet(Q1));
+		System.out.println(test.score());
+	}
 }
+*/
