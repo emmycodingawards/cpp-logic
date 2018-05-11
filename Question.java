@@ -568,6 +568,11 @@ public class Question{
 		System.out.println("The topics you should work on are as follows: ");
 		//Call on Linked List connected to Bitfield
 		System.out.println(" ");
+		for (int i = 0; i < Bitfield.BITS; i++) {
+			if (!Bitfield.isSet(1 << i)) 
+				cpp_ll.print_n(i);
+		}
+		
 		//Network call on localhosesocket 2021. Sends score to the server & receives a confirmation message.
 		System.out.println("Your score has just been sent to your professor through our network.");
 		try
