@@ -45,8 +45,8 @@ class LL{
 		ListNode temp = head;
 		for (int i = 0; i < n; i++) {
 			temp = temp.next;
-			System.out.println(temp.str);
 		}
+			System.out.println(temp.str);
 	}
 
 	public void display_backward(){
