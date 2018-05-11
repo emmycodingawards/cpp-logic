@@ -112,19 +112,26 @@ public class Question{
 		else if (name4.equals( "a") ) {
 			System.out.println("Correct!"); }
 		else if (name4.equals( "B") ) {
-			System.out.println("Incorrect. The # is missing from in front of iostream."); }
+			System.out.println("Incorrect. The # is missing from in front of iostream."); 
+			System.out.println("The correct answer is A."); }
 		else if (name4.equals( "b") ) {
-			System.out.println("Incorrect. The # is missing from in front of iostream."); }
+			System.out.println("Incorrect. The # is missing from in front of iostream."); 
+			System.out.println("The correct answer is A."); }
 		else if (name4.equals( "C") ) {
-			System.out.println("Incorrect. The # is missing from in front of iostream."); }
+			System.out.println("Incorrect. The # is missing from in front of iostream."); 
+			System.out.println("The correct answer is A."); }
 		else if (name4.equals( "c") ) {
-			System.out.println("Incorrect. The # is missing from in front of iostream."); }
+			System.out.println("Incorrect. The # is missing from in front of iostream."); 
+			System.out.println("The correct answer is A."); }
 		else if(name4.equals("D") ) {
-			System.out.println("Incorrect. The # is missing from in front of iostream."); }
+			System.out.println("Incorrect. The # is missing from in front of iostream."); 
+			System.out.println("The correct answer is A."); }
 		else if(name4.equals("d") ) {
-			System.out.println("Incorrect. The # is missing from in front of iostream."); }
+			System.out.println("Incorrect. The # is missing from in front of iostream."); 
+			System.out.println("The correct answer is A."); }
 		else {
-			System.out.println("Invalid Input. The # is missing from in front of iostream.");  }
+			System.out.println("Invalid Input. The # is missing from in front of iostream.");  
+			System.out.println("The correct answer is A."); }
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
@@ -172,7 +179,9 @@ public class Question{
 		//Question 6
 		System.out.println("QUESTION 6: For Loops");
 		System.out.println("Which of these is King Kerney's preferred way of outputting the numbers from 1 to 10?");
+		System.out.println(" " );
 		System.out.println("Choose the correct answer:");
+		System.out.println(" ");
 		System.out.println("A. for (int i = 0; i < 10; i++ ) ");
 		System.out.println("   cout << i << endl;");
 		System.out.println("   }");
