@@ -440,7 +440,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-		cpp_ll.insert_last(12, "history of computer science"); //write 10th topic into the end of the linked list
+		cpp_ll.insert_last(12, "history of computer science"); //write 12th topic into the end of the linked list
 
 		System.out.println(" ");
 		System.out.println("Congratulations!");
