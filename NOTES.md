@@ -47,11 +47,4 @@
 9. Improper array initialization [DONE]
 10. Dereferencing a null pointer [DONE]
 11. Single | and & in if statements [DONE]
-
-- CONTINUE LISTING IN ORDER AS QUESTIONS ARE COMPLETED:
-- Missing semicolon after class
-- Undeclared functions
-- Variable scoping issue
-- Incorrect pointer/function operator
-- Loss of data
-- Using one too many or too few parentheses
+12. Bonus C++ History Question
