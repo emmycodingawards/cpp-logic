@@ -3,6 +3,8 @@ public class Question{
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
+		LL cpp_ll = new LL();	
+
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
@@ -14,6 +16,8 @@ public class Question{
 		System.out.println("These will both be sent to your professor as well.");
 		System.out.println("Good luck!");
 		System.out.println(" ");
+		System.out.println("Fun fact: The source code for this program was written in Java.");
+		System.out.println("You are learning about C++ in Java. Mind boggling, right?");
 		System.out.println(" ");
 		System.out.println(" ");
 
@@ -34,7 +38,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-		cpp_ll.insert_last(1, "Cin Statements"); //write 1st topic into the end of the linked list
+		cpp_ll.insert_last(1, "cin statements"); //write 1st topic into the end of the linked list
 
 		//Question2
 		System.out.println("QUESTION 2: Cout Statements ");
@@ -55,7 +59,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-		cpp_ll.insert_last(2, "Cout Statements"); //write 2nd topic into the end of the linked list
+		cpp_ll.insert_last(2, "cout statements"); //write 2nd topic into the end of the linked list
 
 		//Question 3
 		System.out.println("QUESTION 3: Debugging Compiler Error");
@@ -87,7 +91,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-		cpp_ll.insert_last(3, "Debugging Compiler Error"); //write 3rd topic into the end of the linked list
+		cpp_ll.insert_last(3, "debugging compiler error"); //write 3rd topic into the end of the linked list
 
 		//Question 4
 		System.out.println("QUESTION 4: Magic");
@@ -124,7 +128,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-		cpp_ll.insert_last(4, "Magic"); //write 4th topic into the end of the linked list
+		cpp_ll.insert_last(4, "magic"); //write 4th topic into the end of the linked list
 
 		//Question 5
 		System.out.println("QUESTION 5: If Statements");
@@ -163,7 +167,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-		cpp_ll.insert_last(5, "If Statements"); //write 5th topic into the end of the linked list
+		cpp_ll.insert_last(5, "if statements"); //write 5th topic into the end of the linked list
 
 		//Question 6
 		System.out.println("QUESTION 6: For Loops");
@@ -203,7 +207,7 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-		cpp_ll.insert_last(6, "For Loops"); //write 6th topic into the end of the linked list
+		cpp_ll.insert_last(6, "for loops"); //write 6th topic into the end of the linked list
 
 		//Question 7
 		System.out.println("QUESTION 7: Power operator");
@@ -215,25 +219,25 @@ public class Question{
 		System.out.println("D. 3*3*3*3 ");
 		String name7 = in.nextLine();
 		if (name7.equals( "A") ) {
-			System.out.println("Incorrect. It's missing 3. Instead of x there should be 3."); 
+			System.out.println("Incorrect. Instead of x there should be 3."); 
 			System.out.println("The correct answer is C."); }
 		else if (name7.equals( "a") ) {
-			System.out.println("Incorect. It's missing 3. Instead of x there should be 3."); 
+			System.out.println("Incorect. Instead of x there should be 3."); 
 			System.out.println("The correct answer is C."); }
 		else if (name7.equals( "B") ) {
 			System.out.println("Incorrect. You've used the caret operator (^) with two integers, probably expecting it to raise one integer to the other. This operator in C++ is responsible for XOR (exclusive OR).");
-			System.out.println("If you want to raise an integer, use the <cmath> function pow."); 
+			System.out.println("If you want to raise an integer to a power, use the <cmath> function pow()."); 
 			System.out.println("The correct answer is C."); }
 		else if (name7.equals( "b") ) {
 			System.out.println("Incorrect. You've used the caret operator (^) with two integers, probably expecting it to raise one integer to the other. This operator in C++ is responsible for XOR (exclusive OR).");
-			System.out.println("If you want to raise an integer, use the <cmath> function pow."); 
+			System.out.println("If you want to raise an integer to a power, use the <cmath> function pow()."); 
 			System.out.println("The correct answer is C."); }
 		else if (name7.equals( "D") ) {
-			System.out.println("Incorrect. Only valid in MATH not in C++."); }
-		System.out.println("The correct answer is C.");
+			System.out.println("Incorrect. This is only valid in math, not in C++."); 
+			System.out.println("The correct answer is C."); }
 		else if (name7.equals( "d") ) {
-			System.out.println("Incorrect. Only valid in MATH not in C++."); }
-		System.out.println("The correct answer is C.");		
+			System.out.println("Incorrect. This is only valid in math, not in C++."); 
+			System.out.println("The correct answer is C."); }
 		else if(name7.equals("C") ) {
 			System.out.println("Correct! "); }
 		else if(name7.equals("c") ) {
@@ -243,32 +247,32 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-		cpp_ll.insert_last(7, "Power Operator"); //write 7th topic into the end of the linked list
+		cpp_ll.insert_last(7, "power operator"); //write 7th topic into the end of the linked list
 
 		//Question 8
-		System.out.println("QUESTION 8: Extra Semicolon in for loop");
+		System.out.println("QUESTION 8: For Loop Syntax");
 		System.out.println("What is wrong with the statement below?");
 		System.out.println(" ");
 		System.out.println("for (int i = 0; i < 10; i++);");
 		System.out.println(" ");
-		System.out.println("Choose an Appropriate answer:");
+		System.out.println("Choose the correct answer:");
 		System.out.println(" ");
-		System.out.println("A. Nothing is Wrong.");
-		System.out.println("B. Extra semicolon after a for loop.");
-		System.out.println("C. This syntax is used in C. ");
+		System.out.println("A. Nothing is wrong.");
+		System.out.println("B. Extra semicolon after the for loop.");
+		System.out.println("C. This syntax is only used in C#. ");
 		String name8 = in.nextLine();
 		if (name8.equals( "A") ) {
-			System.out.println("Incorrect. A for loop does not require a semicolon after it's declaration. ");
-			System.out.println("A proper for loop is constructed as follows: for(int i = 0; i < 10; i++) { stuff to do.. } ");
+			System.out.println("Incorrect. A for loop does not require a semicolon after its declaration. ");
+			System.out.println("A proper for loop is constructed as follows: for (int i = 0; i < 10; i++) { stuff to do.. } ");
 			System.out.println("The correct answer is B.");}
 		else if (name8.equals( "a") ) {
-			System.out.println("Incorrect. A for loop does not require a semicolon after it's declaration. ");
-			System.out.println("A proper for loop is constructed as follows: for(int i = 0; i < 10; i++) { stuff to do.. } ");
+			System.out.println("Incorrect. A for loop does not require a semicolon after its declaration. ");
+			System.out.println("A proper for loop is constructed as follows: for (int i = 0; i < 10; i++) { stuff to do.. } ");
 			System.out.println("The correct answer is B."); }
 		else if (name8.equals( "B") ) {
-			System.out.println("Correct! A for loop does not require a semicolon after it's declaration."); }
+			System.out.println("Correct! A for loop does not require a semicolon after its declaration."); }
 		else if (name8.equals( "b") ) {
-			System.out.println("Correct! A for loop does not require a semicolon after it's declaration."); }
+			System.out.println("Correct! A for loop does not require a semicolon after its declaration."); }
 		else if(name8.equals("C") ) {
 			System.out.println("Incorrect. The correct answer is B."); }
 		else if(name8.equals("c") ) {
@@ -278,13 +282,13 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-		cpp_ll.insert_last(8, "Extra Semicolon in for loop"); //write 8th topic into the end of the linked list
+		cpp_ll.insert_last(8, "for loop syntax"); //write 8th topic into the end of the linked list
 
 		//Question 9
-		System.out.println("QUESTION 9: Variable sized array");
+		System.out.println("QUESTION 9: Variable Sized Array");
 		System.out.println("What is the right syntax in C++ to declare a variable sized array?");
 		System.out.println(" ");
-		System.out.println("Choose an Appropriate answer:");
+		System.out.println("Choose the correct answer:");
 		System.out.println(" ");
 		System.out.println("A. int arr[x];");
 		System.out.println("B.  int *p = arr[x]; ");
@@ -299,9 +303,9 @@ public class Question{
 			System.out.println("integer pointer to the beginning of an int arr with size x.. ");
 			System.out.println("The correct answer is C."); }
 		else if (name9.equals( "B") ) {
-			System.out.println("Incorrect! To declare a variable sized array. You must invoke the new function. But this is missing the new function."); }
+			System.out.println("Incorrect. To declare a variable sized array. You must invoke the new function. But this is missing the new function."); }
 		else if (name9.equals( "b") ) {
-			System.out.println("Incorrect! To declare a variable sized array. You must invoke the new function. But this is missing the new function."); }
+			System.out.println("Incorrect. To declare a variable sized array. You must invoke the new function. But this is missing the new function."); }
 		else if(name9.equals("C") ) {
 			System.out.println("Correct!");
 			System.out.println("To declare a variable sized array. You must invoke the new function. As so, int *p = new arr[x]; This will create an");
@@ -315,7 +319,7 @@ public class Question{
 		System.out.println(" " );
 		System.out.println(" ");
 		System.out.println(" ");
-		cpp_ll.insert_last(9, "Variable sized array"); //write 9th topic into the end of the linked list
+		cpp_ll.insert_last(9, "Variable sized arrays"); //write 9th topic into the end of the linked list
 
 		//Question 10
 		System.out.println("QUESTION 10: Null pointer");
@@ -323,12 +327,12 @@ public class Question{
 		System.out.println(" " );
 		System.out.println("int *x = null_ptr; cout << *x; ");
 		System.out.println(" ");
-		System.out.println("Choose an Appropriate answer:");
+		System.out.println("Choose the correct answer:");
 		System.out.println(" ");
-		System.out.println("A. Prints whatever is in the memory address.");
-		System.out.println("B. Nothing Wrong. ");
-		System.out.println("C. You can not cout a pointer.");	
-		System.out.println("D. Dereferencing a Null pointer.");
+		System.out.println("A. It prints whatever is in the memory address.");
+		System.out.println("B. Nothing is wrong. ");
+		System.out.println("C. You cannot cout a pointer.");	
+		System.out.println("D. You are dereferencing a null pointer.");
 		String name10 = in.nextLine();
 		if (name10.equals( "A") ) {
 			System.out.println("Incorrect. You are dereferencing a null pointer. ");
@@ -352,16 +356,15 @@ public class Question{
 			System.out.println("Correct!"); }
 		else if(name10.equals("d") ) {
 			System.out.println("Correct!"); }
-
 		else {
 			System.out.println("Invalid Input. The correct answer is D.");  }
-		System.out.println(" " );
 		System.out.println(" ");
 		System.out.println(" ");
-		cpp_ll.insert_last(10, "Null Pointer"); //write 10th topic into the end of the linked list
+		System.out.println(" ");
+		cpp_ll.insert_last(10, "null pointers"); //write 10th topic into the end of the linked list
 
 		//Question 11
-		System.out.println("QUESTION 11: Single | and & in if statements");
+		System.out.println("QUESTION 11: And/Or Operators");
 		System.out.println("What will the code print to the screen?");
 		System.out.println( " ");
 		System.out.println("int x = 5; int y = 8;");
@@ -369,12 +372,12 @@ public class Question{
 		System.out.println("if (x == 5 & y == 8) { cout << \"AWESOME;\" } ");
 		System.out.println("else cout << \"WRONG\" ");
 		System.out.println( " ");
-		System.out.println( "Please Type in your answer below: ");
+		System.out.println( "Please type in your answer below: ");
 		String name11 = in.nextLine();
 		if (name11.equals( "AWESOME") ) {
-			System.out.println("Inorrect! You've not used the && operator properly."); }
+			System.out.println("Inorrect. You have not used the && operator properly."); }
 		else if (name11.equals( "Awesome") ) {
-			System.out.println("Incorrect! You've not used the && operator properly."); }
+			System.out.println("Incorrect. You've not used the && operator properly."); }
 		else if (name11.equals( "awesome") ){
 			System.out.println("Incorrect! You've not used the && operator properly."); }
 		else if (name11.equals( "WRONG") ){
@@ -388,10 +391,60 @@ public class Question{
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(" ");
-		cpp_ll.insert_last(11, "Single | and & in if statements"); //write 11th topic into the end of the linked list
+		cpp_ll.insert_last(11, "and/or operators"); //write 11th topic into the end of the linked list
+
+		//Question 12
+		System.out.println("QUESTION 12: Bonus Question");
+		System.out.println("Who invented the first compiler?");
+		System.out.println(" ");
+		System.out.println("Choose the correct answer:");
+		System.out.println(" ");
+		System.out.println("A. Grace Hopper");
+		System.out.println("B. Ada Lovelace");
+		System.out.println("C. Bill Gates");
+		System.out.println("D. Bill Kerney");
+		String name12 = in.nextLine();
+		if (name12.equals( "A") ) {
+			System.out.println("Correct!"); }
+		else if (name12.equals( "a") ) {
+			System.out.println("Correct!"); }
+		else if (name12.equals( "B") ) {
+			System.out.println("Incorrect. But Ada Lovelace was the first computer programmer.");
+			System.out.println("The correct answer is A."); }
+		else if (name12.equals( "b") ) {
+			System.out.println("Incorrect. But Ada Lovelace was the first computer programmer."); 
+			System.out.println("The correct answer is A."); }
+		else if (name12.equals( "C") ) {
+			System.out.println("Incorrect. Computer science is much older than Mr. Gates.");
+			System.out.println("The correct answer is A.");}
+		else if (name12.equals( "c") ) {
+			System.out.println("Incorrect. Computer science is much older than Mr. Gates.");
+			System.out.println("The correct answer is A."); }
+		else if(name12.equals("D") ) {
+			System.out.println("Incorrect. King Kerney invented the debugger EZPC, which is what this quiz was based off.");
+			System.out.println("The correct answer is A."); }
+		else if(name12.equals("d") ) {
+			System.out.println("Incorrect. King Kerney invented the debugger EZPC, which is what this quiz was based off.");
+			System.out.println("The correct answer is A."); }
+		else {
+			System.out.println("Invalid Input. The correct answer is A.");  }
+		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println(" ");
+		cpp_ll.insert_last(12, "history of computer science"); //write 10th topic into the end of the linked list
+
+		System.out.println(" ");
+		System.out.println("Congratulations!");
+		System.out.println("You have reached the end of the C++ Logic Quiz!");
+		System.out.println("Your score: ");
+		//Call on Bitfield for score
+		System.out.println("The topics you should work on are as follows: ");
+		//Call on Linked List connected to Bitfield
+		System.out.println("Your score has just been sent to your professor through our network.");
+		System.out.println(" ");
+		System.out.println("Good luck in your future computer science endeavors!");
 	}
+
 }
 
 
-
-		
