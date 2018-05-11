@@ -43,6 +43,7 @@ public class Bitfield {
 	public static final int Q10 = 1 << 9;
 	public static final int Q11 = 1 << 10;
 	public static final int Q12 = 1 << 11;
+	public static final int BITS = 12;
 
 	public static int datafield;
 

@@ -40,6 +40,10 @@ class LL{
 		System.out.println("null");
 	}
 
+	public void print_n(int n) {
+		//Do a system.out.println for element N here
+	}
+
 	public void display_backward(){
 		if(tail == null){return;}
 		ListNode temp = tail;
