@@ -573,7 +573,7 @@ public class Question{
 		try
 		{
 		Network client = new Network();
-		client.run(7);
+		client.run(Bitfield.score());
 		}
 		catch(Exception e){
 
