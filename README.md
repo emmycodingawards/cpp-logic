@@ -5,9 +5,9 @@ Members: Emmy Issa, Preet Jyotpreet, Chris Vienna, Chris Mendonca
 # Requirements:
 - Github ✓
 - Networking
-- Data Structure 1: Linked List
+- Data Structure 1: Linked List ✓
 - Data Structure 2: Bitfield
-- Extra Credit: Written in Java
+- Extra Credit: Written in Java ✓
 
 # Assignments:
 - Emmy: Question class 
